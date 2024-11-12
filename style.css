@@ -53,69 +53,6 @@ p {
   transition: all 0.3s ease-out;
 }
 
-.periodic-bg .popup {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: orange;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  display: none;
-}
-
-.periodic-bg .popup:target {
-  position: fixed;
-  top: 12.79%;
-  left: 25.1%;
-  display: block;
-  display: grid;
-  height: 49vh;
-  width: 94.6vb;
-  grid-template-columns: 1fr 10fr 1fr;
-  grid-template-rows: 1fr 6fr;
-}
-
-.periodic-bg .popup .close {
-  transition: all 200ms;
-  color: #fff;
-  text-decoration: none;
-  font-size: 40px;
-  font-weight: bold;
-  font: helvetica;
-}
-
-.periodic-bg .popup .top-right {
-  text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-.periodic-bg .popup .top-left {
-  text-align: center;
-}
-
-.periodic-bg .popup .top-middle {
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-}
-
-.periodic-bg .popup .bottom {
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  grid-area: 2/1/3/4;
-}
-
-.periodic-bg .popup .close:hover {
-  color: red;
-}
-
 /*Empty space between H and He*/
 
 .periodic-bg .empty-space-one {
