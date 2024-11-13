@@ -129,14 +129,14 @@ p {
 .element-symbol {
   position: absolute;
   top: 20%;
-  left: 40%;
+  left: 37%;
   font-size: 1rem;
 }
 
 .element-name {
   position: absolute;
   bottom: 25%;
-  left: 20%;
+  left: 23%;
 }
 
 .element-box:hover .inner-element-name {
