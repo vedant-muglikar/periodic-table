@@ -30,7 +30,7 @@ function popupUpdate(
       name.innerText = e.name;
       atNo.innerText = e.atNo;
       atMass.innerText = e.atMass;
-      eConfig.innerText = e.eConfig;
+      eConfig.innerHTML = e.eConfig;
       density.innerText = e.density;
       crust.innerText = e.crust;
       universe.innerText = e.universe;

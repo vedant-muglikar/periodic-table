@@ -4,7 +4,7 @@
     "name": "Hydrogen",
     "atNo": "1",
     "atMass": "1",
-    "eConfig": "1s1",
+    "eConfig": "1s<sup>1</sup>",
     "density": "0.00523 lb/ft3",
     "crust": "0.14%",
     "universe": "75%"
@@ -14,7 +14,7 @@
     "name": "Lithuaim",
     "atNo": "2",
     "atMass": "2",
-    "eConfig": "1s1",
+    "eConfig": "1s<sup>1</sup>",
     "density": "0.00523 lb/ft3",
     "crust": "0.14%",
     "universe": "75%"
