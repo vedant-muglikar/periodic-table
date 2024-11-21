@@ -7,7 +7,9 @@
     "eConfig": "1s<sup>1</sup>",
     "density": "0.00523 lb/ft3",
     "crust": "0.14%",
-    "universe": "75%"
+    "universe": "75%",
+    "boiling": 600,
+    "melting": 300
   },
   {
     "img": "./img/lithium.jpg",
@@ -17,6 +19,8 @@
     "eConfig": "1s<sup>1</sup>",
     "density": "0.00523 lb/ft3",
     "crust": "0.14%",
-    "universe": "75%"
+    "universe": "75%",
+    "boiling": 800,
+    "melting": 500
   }
 ]
