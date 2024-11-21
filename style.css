@@ -17,6 +17,69 @@ p {
   pointer-events: none;
 }
 
+/*Search box styling following a youtuber tutorial*/
+.bg-search-box {
+  display: flex;
+  align-items: center;
+}
+.search-box {
+  width: 80vw;
+  background: #fff;
+  border-radius: 1vmin;
+  align-self: center;
+}
+
+.search-box .row {
+  display: flex;
+  align-items: center;
+  padding: 2vmin;
+}
+
+.search-box .row input {
+  flex: 1;
+  color: #333;
+  height: 3vh;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+}
+
+.search-box .row button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.search-box .row button fa-solid {
+  width: 25px;
+  cursor: pointer;
+  color: #555;
+  font-size: 22px;
+}
+
+.search-box .result-box ul {
+  border-top: 1px solid #999;
+  padding: 15px 10px;
+}
+
+.search-box .result-box ul li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.search-box .result-box ul li:hover {
+  background: #e9f3ff;
+}
+
+.search-box .result-box {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+/*Search box styling */
+
 .main {
   display: flex;
   justify-content: center;

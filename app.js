@@ -81,3 +81,74 @@ fetch("./data.json")
       };
     });
   });
+
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/*New code */
+/*youtuber code */
+let availablekeywords = [];
+
+fetch("./data.json")
+  .then((res) => res.json())
+  .then((data) => {
+    availablekeywords = data.map((element) => element.name);
+    //console.log(availablekeywords);
+  });
+/* */
+const resultBox = document.querySelector(".result-box");
+const inputBox = document.querySelector("#input-box");
+
+inputBox.onkeyup = function () {
+  let result = [];
+  let input = inputBox.value;
+
+  if (input.length) {
+    result = availablekeywords.filter((keyword) => {
+      return keyword.toLowerCase().includes(input.toLowerCase());
+    });
+    console.log(result);
+  }
+  display(result);
+
+  if (!result.length) {
+    resultBox.innerHTML = "";
+  }
+};
+
+function display(result) {
+  const content = result.map((list) => {
+    return "<li onClick=selectInput(this)>" + list + "</li>";
+  });
+
+  resultBox.innerHTML = "<ul>" + content.join("") + "</ul>";
+}
+
+function selectInput(list) {
+  const element_name = list.innerHTML;
+  inputBox.value = element_name;
+  resultBox.innerHTML = "";
+
+  popupUpdate(
+    eleImg,
+    eleName,
+    eleNo,
+    eleMass,
+    eleConfig,
+    eleDensity,
+    eleCrust,
+    eleUni,
+    element_name
+  );
+
+  popupContainer.classList.add("active");
+  popup.classList.add("active");
+}
+/*youtuber code */
+/*New code */
