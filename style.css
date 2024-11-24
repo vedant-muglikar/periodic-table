@@ -62,31 +62,37 @@ p {
 .periodic-bg .empty-space-one {
   background: rgb(0, 2, 144);
   grid-area: 1/2/1/18;
+  border: 2px solid black;
 }
 
 .periodic-bg .empty-space-two {
   background: rgb(144, 0, 72);
   grid-area: 2/3/2/13;
+  border: 2px solid black;
 }
 
 .periodic-bg .empty-space-three {
   background: rgb(0, 144, 101);
   grid-area: 3/3/3/13;
+  border: 2px solid black;
 }
 
 .periodic-bg .empty-space-four {
   background: rgb(0, 2, 144);
   grid-area: 9/1/11/3;
+  border: 2px solid black;
 }
 
 .periodic-bg .empty-space-five {
   background: rgb(0, 2, 144);
   grid-area: 9/18/11/19;
+  border: 2px solid black;
 }
 
 .periodic-bg .divider {
   background: rgb(74, 0, 144);
   grid-area: 8/1/9/19;
+  border: 2px solid black;
 }
 
 /* Hover effect */
@@ -105,9 +111,6 @@ p {
 
 .element-hover {
   display: none; /* Hidden by default */
-  display: flex;
-  align-items: center;
-  justify-content: center;
   opacity: 0;
   pointer-events: none;
   position: absolute;
@@ -116,6 +119,15 @@ p {
   top: 0;
   left: 0;
   transform: scale(1);
+}
+
+.align {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .atomic-number {
@@ -131,16 +143,7 @@ p {
 }
 
 .element-symbol {
-  position: absolute;
-  top: 20%;
-  left: 37%;
-  font-size: 1rem;
-}
-
-.element-name {
-  position: absolute;
-  bottom: 25%;
-  left: 23%;
+  font-size: 0.7rem;
 }
 
 .element-box:hover .inner-element-name {
@@ -153,6 +156,9 @@ p {
   display: block; /* Show hover content */
   opacity: 1;
   pointer-events: all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Popup*/
