@@ -11,7 +11,7 @@ const eleDensity = document.querySelector(".ele-density");
 const eleCrust = document.querySelector(".ele-crust");
 const eleUni = document.querySelector(".ele-uni");
 const slider = document.querySelector(".temp-slider");
-const tempValue = document.querySelector(".temp-value");
+const tempValue = document.querySelector(".temp-value-kelvin");
 
 let elements = [];
 
@@ -50,22 +50,21 @@ function tempUpdate(temp) {
 function colorUpdate(temp) {
   elements.forEach((element) => {
     name = element.name;
-    console.log(elementCards, name, element, element.boiling);
     elementCards.forEach((box) => {
-      console.log(box);
+      console.log(box.children[0]);
       if (box.classList.contains(name)) {
-        console.log(element.boiling);
         /*gass*/
         if (element.boiling < temp) {
-          box.style.background = "white";
+          box.style.background = "#DCDCDC";
+          box.children[0].style.color = "black";
         }
         /*liquid*/
         if (element.boiling > temp && temp > element.melting) {
-          box.style.background = "blue";
+          box.style.background = "#4169E1";
         }
         /*solid*/
         if (element.melting > temp) {
-          box.style.background = "red";
+          box.style.background = "#FF7F7F";
         }
       }
     });
@@ -99,7 +98,6 @@ elementCards.forEach((card) => {
 
 /*update the display and slider with temperature value*/
 slider.addEventListener("input", (e) => {
-  console.log(e.target.value);
   tempUpdate(e.target.value);
   colorUpdate(e.target.value);
 });
@@ -161,7 +159,6 @@ inputBox.onkeyup = function () {
     result = availablekeywords.filter((keyword) => {
       return keyword.toLowerCase().includes(input.toLowerCase());
     });
-    console.log(result);
   }
   display(result);
 
