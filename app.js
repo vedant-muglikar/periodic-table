@@ -79,7 +79,8 @@ closeBtn.addEventListener("click", () => {
 
 elementCards.forEach((card) => {
   card.addEventListener("click", (e) => {
-    element_name = e.target.children[3].innerText;
+    let element_name = e.target.children[1].innerText;
+    console.log(element_name);
     popupUpdate(
       eleImg,
       eleName,
@@ -168,7 +169,7 @@ inputBox.onkeyup = function () {
 };
 
 function display(result) {
-  const content = result.map((list) => {
+  let content = result.map((list) => {
     return "<li onClick=selectInput(this)>" + list + "</li>";
   });
 
@@ -176,7 +177,7 @@ function display(result) {
 }
 
 function selectInput(list) {
-  const element_name = list.innerHTML;
+  let element_name = list.innerHTML;
   inputBox.value = element_name;
   resultBox.innerHTML = "";
 
