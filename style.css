@@ -357,3 +357,88 @@ p {
   cursor: pointer;
   background: linear-gradient(to right, blue, red);
 }
+
+
+
+
+/*Animation???*/
+#square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.temp {
+  position: absolute;
+  background: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin linear infinite;
+}
+
+.temp div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+#square .nucleus {
+  position: absolute;
+  height: 0.5vh;
+  width: 0.5vh;
+  transform: translate(-50%, -50%);
+  background: white;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+}
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.square .nucleus {
+  position: absolute;
+  height: 0.5vh;
+  width: 0.5vh;
+  transform: translate(-50%, -50%);
+  background: white;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+}
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+/*Animation????*/
