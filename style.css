@@ -250,10 +250,12 @@ p {
 
 .popup-close {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -0.1%;
+  top: -0.1%;
+  height:9vh;
+  width: 9vh;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   background: rgb(68, 76, 91);
   color: white;
   cursor: pointer;
