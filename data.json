@@ -21,7 +21,7 @@
     "crust": "0.00052%",
     "universe": "10^−4 relative to hydrogen",
     "boiling": 4.22,
-    "melting": -272.2
+    "melting": 0.95
   },
   {
     "img": "./img/lithium.png",
@@ -44,7 +44,7 @@
     "density": "1.848 g/cm³",
     "crust": "0.019%",
     "universe": "10^−8 relative to hydrogen",
-    "boiling": 2471,
+    "boiling": 2742,
     "melting": 1560
   },
   {
