@@ -1,25 +1,25 @@
 [
   {
-    "img": "./img/hydrogen.jpg",
+    "img": "./img/hydrogen.png",
     "name": "Hydrogen",
     "atNo": "1",
-    "atMass": "1",
+    "atMass": "1.00784 u",
     "eConfig": "1s<sup>1</sup>",
-    "density": "0.00523 lb/ft3",
+    "density": "0.08988 g/L",
     "crust": "0.14%",
-    "universe": "75%",
+    "universe": "74%",
     "boiling": 600,
     "melting": 300
   },
   {
-    "img": "./img/lithium.jpg",
-    "name": "Lithuaim",
-    "atNo": "2",
-    "atMass": "2",
-    "eConfig": "1s<sup>1</sup>",
-    "density": "0.00523 lb/ft3",
-    "crust": "0.14%",
-    "universe": "75%",
+    "img": "./img/lithium.png",
+    "name": "Lithium",
+    "atNo": "3",
+    "atMass": "6.941 u",
+    "eConfig": "1s<sup>2</sup>2s<sup>1</sup>",
+    "density": "0.5334 g/ml",
+    "crust": "0.002%",
+    "universe": "10^−10 relative to hydrogen",
     "boiling": 800,
     "melting": 500
   }
