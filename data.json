@@ -888,6 +888,30 @@
     "melting": 3422
   },
   {
+    "img": "./img/rhenium.png",
+    "name": "Rhenium",
+    "atNo": "75",
+    "atMass": "186.207 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>5</sup>6s<sup>1</sup>",
+    "density": "21.02 g/cm³",
+    "crust": "0.001% ",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 5869,
+    "melting": 3459
+  },
+  {
+    "img": "./img/osmium.png",
+    "name": "Osmium",
+    "atNo": "76",
+    "atMass": "190.23 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>6</sup>6s<sup>2</sup>",
+    "density": "22.59 g/cm³",
+    "crust": "0.001% ",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 5285,
+    "melting": 3033
+  },  
+  {
     "img": "./img/iridium.png",
     "name": "Iridium",
     "atNo": "77",
