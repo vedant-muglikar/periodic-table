@@ -55,16 +55,16 @@ function colorUpdate(temp) {
       if (box.classList.contains(name)) {
         /*gass*/
         if (element.boiling < temp) {
-          box.style.background = "#DCDCDC";
+          box.style.borderColor = "#DCDCDC";
           box.children[0].style.color = "black";
         }
         /*liquid*/
         if (element.boiling > temp && temp > element.melting) {
-          box.style.background = "#4169E1";
+          box.style.borderColor = "#4169E1";
         }
         /*solid*/
         if (element.melting > temp) {
-          box.style.background = "#FF7F7F";
+          box.style.borderColor = "#FF7F7F";
         }
       }
     });
