@@ -144,8 +144,8 @@
     "melting": 923.0
   },
   {
-    "img": "./img/aluminum.png",
-    "name": "Aluminum",
+    "img": "./img/aluminium.png",
+    "name": "Aluminium",
     "atNo": "13",
     "atMass": "26.98154 u",
     "eConfig": "[Ne]3s<sup>2</sup>3p<sup>1</sup>",
@@ -672,7 +672,7 @@
     "melting": 727
   },
   {
-    "img": "./img/lantanum.png",
+    "img": "./img/lanthanum.png",
     "name": "Lanthanum",
     "atNo": "57",
     "atMass": "138.904 u",
@@ -1080,7 +1080,7 @@
     "melting": 1750
   },
   {
-    "img": "./img/proactinium.png",
+    "img": "./img/protactinium.png",
     "name": "Protactinium",
     "atNo": "91",
     "atMass": "231.035 u",
