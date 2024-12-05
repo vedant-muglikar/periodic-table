@@ -97,7 +97,7 @@ elementCards.forEach((card) => {
   });
 });
 
-/*update the display and slider with temperature value*/
+/*update the display and slider with temperature value*/g
 slider.addEventListener("input", (e) => {
   tempUpdate(e.target.value);
   colorUpdate(e.target.value);
@@ -198,3 +198,4 @@ function selectInput(list) {
 }
 /*youtuber code */
 /*New code */
+
