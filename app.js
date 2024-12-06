@@ -49,7 +49,7 @@ function tempUpdate(temp) {
 /*updating the color of elements */
 function colorUpdate(temp) {
   elements.forEach((element) => {
-    name = element.name;
+    const name = element.name;
     elementCards.forEach((box) => {
       console.log(box.children[0]);
       if (box.classList.contains(name)) {
@@ -213,105 +213,70 @@ function selectInput(list) {
 /*Colour of element updater*/
 
 function colorOfElementUpdaterAlkaliMetal() {
-  console.log("Updating Alkali Metals...");
   const allAlkaliMetals = document.querySelectorAll(".alkaliMetal");
   for (let i = 0; i < allAlkaliMetals.length; i++) {
     allAlkaliMetals[i].style.background = `rgb(35, 244, 255)`;
-    //allAlkaliMetals[i].style.boxShadow = `0 0 1vh rgb(35, 244, 255)`;
   }
-  console.log(allAlkaliMetals[0].style.background + " Alkali Metals updated.");
 }
 
 function colorOfElementUpdaterAlkalineEarthMetal() {
-  console.log("Updating Alkaline Earth Metals...");
   const allAlkalineEarthMetals = document.querySelectorAll(
     ".alkalineEarthMetal"
   );
   for (let i = 0; i < allAlkalineEarthMetals.length; i++) {
     allAlkalineEarthMetals[i].style.background = `rgb(48, 193, 255)`;
-    //allAlkalineEarthMetals[i].style.boxShadow = `0 0 1vh rgb(48, 193, 255)`;
   }
-  console.log(
-    allAlkalineEarthMetals[0].style.background +
-      " Alkaline Earth Metals updated."
-  );
 }
 
 function colorOfElementUpdaterTransitionElement() {
-  console.log("Updating Transition Elements...");
   const allTransitionElements = document.querySelectorAll(".transitionElement");
   for (let i = 0; i < allTransitionElements.length; i++) {
     allTransitionElements[i].style.background = `rgb(255, 228, 77)`;
-    //allTransitionElements[i].style.boxShadow = `0 0 1vh rgb(255, 228, 77)`;
   }
-  console.log(
-    allTransitionElements[0].style.background + " Transition Elements updated."
-  );
 }
 
 function colorOfElementUpdaterPostTransitionElement() {
-  console.log("Updating Post-Transition Elements...");
   const allPostTransitionElements = document.querySelectorAll(
     ".postTransitionElement"
   );
   for (let i = 0; i < allPostTransitionElements.length; i++) {
     allPostTransitionElements[i].style.background = `rgb(255, 170, 0)`;
-    //allPostTransitionElements[i].style.boxShadow = `0 0 1vh rgb(255, 170, 0)`;
   }
-  console.log(
-    allPostTransitionElements[0].style.background +
-      " Post-Transition Elements updated."
-  );
 }
 
 function colorOfElementUpdaterMetalloid() {
-  console.log("Updating Metalloids...");
   const allMetalloids = document.querySelectorAll(".metalloid");
   for (let i = 0; i < allMetalloids.length; i++) {
     allMetalloids[i].style.background = `rgb(183, 198, 196)`;
-    //allMetalloids[i].style.boxShadow = `0 0 1vh rgb(183, 198, 196)`;
   }
-  console.log(allMetalloids[0].style.background + " Metalloids updated.");
 }
 
 function colorOfElementUpdaterNonmetal() {
-  console.log("hello");
   const allNonMetals = document.querySelectorAll(".nonMetal");
   for (let i = 0; i < allNonMetals.length; i++) {
     allNonMetals[i].style.background = `rgb(255, 69, 112)`;
-    //allNonMetals[i].style.boxShadow = `0 0 1vh rgb(255, 69, 112)`;
   }
-  console.log(allNonMetals[0].style.background + "yoo");
 }
 
 function colorOfElementUpdaterNobleGas() {
-  console.log("Updating Noble Gases...");
   const allNobleGases = document.querySelectorAll(".nobleGas");
   for (let i = 0; i < allNobleGases.length; i++) {
     allNobleGases[i].style.background = `rgb(183, 48, 255)`;
-    //allNobleGases[i].style.boxShadow = `0 0 1vh rgb(183, 48, 255)`;
   }
-  //console.log(allNobleGases[0].style.background + " Noble Gases updated.");
 }
 
 function colorOfElementUpdaterLanthanoid() {
-  console.log("Updating Lanthanoids...");
   const allLanthanoids = document.querySelectorAll(".lanthanoid");
   for (let i = 0; i < allLanthanoids.length; i++) {
     allLanthanoids[i].style.background = `rgb(180, 255, 41)`;
-    //allLanthanoids[i].style.boxShadow = `0 0 1vh rgb(203, 255, 46)`;
   }
-  console.log(allLanthanoids[0].style.background + " Lanthanoids updated.");
 }
 
 function colorOfElementUpdaterActinoid() {
-  console.log("Updating Actinoids...");
   const allActinoids = document.querySelectorAll(".actinoid");
   for (let i = 0; i < allActinoids.length; i++) {
     allActinoids[i].style.background = `rgb(0, 255, 115)`;
-    //allActinoids[i].style.boxShadow = `0 0 1vh rgb(0, 255, 115)`;
   }
-  console.log(allActinoids[0].style.background + " Actinoids updated.");
 }
 
 
@@ -325,5 +290,72 @@ function colorOfAllElementUpdate(){
   colorOfElementUpdaterNobleGas();
   colorOfElementUpdaterLanthanoid();
   colorOfElementUpdaterActinoid();
+}
+
+function glowOfElementUpdaterAlkaliMetal() {
+  const allAlkaliMetals = document.querySelectorAll(".alkaliMetal");
+  for (let i = 0; i < allAlkaliMetals.length; i++) {
+    allAlkaliMetals[i].style.boxShadow = `0 0 5vh 0.7vh rgb(35, 244, 255)`;
+  }
+}
+
+function glowOfElementUpdaterAlkalineEarthMetal() {
+  const allAlkalineEarthMetals = document.querySelectorAll(".alkalineEarthMetal");
+  for (let i = 0; i < allAlkalineEarthMetals.length; i++) {
+    allAlkalineEarthMetals[i].style.boxShadow = `0 0 5vh 0.7vh rgb(48, 193, 255)`;
+  }
+}
+
+function glowOfElementUpdaterTransitionElement() {
+
+  const allTransitionElements = document.querySelectorAll(".transitionElement");
+  for (let i = 0; i < allTransitionElements.length; i++) {
+    allTransitionElements[i].style.boxShadow = `0 0 5vh 0.7vh rgb(255, 228, 77)`;
+  }
+}
+
+function glowOfElementUpdaterPostTransitionElement() {
+  const allPostTransitionElements = document.querySelectorAll(".postTransitionElement");
+  for (let i = 0; i < allPostTransitionElements.length; i++) {
+    allPostTransitionElements[i].style.boxShadow = `0 0 5vh 0.7vh rgb(255, 170, 0)`;
+  }
+}
+
+function glowOfElementUpdaterMetalloid() {
+  const allMetalloids = document.querySelectorAll(".metalloid");
+  for (let i = 0; i < allMetalloids.length; i++) {
+    allMetalloids[i].style.boxShadow = `0 0 5vh 0.7vh rgb(183, 198, 196)`;
+  }
+}
+
+function glowOfElementUpdaterNonmetal() {
+  const allNonMetals = document.querySelectorAll(".nonMetal");
+  for (let i = 0; i < allNonMetals.length; i++) {
+    allNonMetals[i].style.boxShadow = `0 0 5vh 0.7vh rgb(255, 69, 112)`;
+  }
+}
+
+function glowOfElementUpdaterNobleGas() {
+  const allNobleGases = document.querySelectorAll(".nobleGas");
+  for (let i = 0; i < allNobleGases.length; i++) {
+    allNobleGases[i].style.boxShadow = `0  0 5vh 0.7vh rgb(183, 48, 255)`;
+  }
+}
+
+function glowOfElementUpdaterLanthanoid() {
+  const allLanthanoids = document.querySelectorAll(".lanthanoid");
+  for (let i = 0; i < allLanthanoids.length; i++) {
+    allLanthanoids[i].style.boxShadow = `0 0 5vh 0.7vh rgb(203, 255, 46)`;
+  }
+}
+
+function glowOfElementUpdaterActinoid() {
+  const allActinoids = document.querySelectorAll(".actinoid");
+  const actinoids = document.querySelectorAll(".actinoids");
+  actinoids[0].style.background = `rgb(0, 255, 115)`;
+  actinoids[0].style.color = `rgb(0, 0, 0)`;
+  for (let i = 0; i < allActinoids.length; i++) {
+    allActinoids[i].style.boxShadow = `0 0 5vh 0.7vh rgb(0, 255, 115)`;
+  }
 }
 /*Colour of element updater*/
