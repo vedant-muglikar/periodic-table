@@ -92,7 +92,7 @@
     "density": "0.001429 g/cm³",
     "crust": "0.9%",
     "universe": "10^−7 relative to hydrogen",
-    "boiling": 90.20,
+    "boiling": 90.2,
     "melting": -218.79
   },
   {
@@ -212,7 +212,7 @@
     "density": "0.001784 g/cm³",
     "crust": "0.0003%",
     "universe": "10^−8 relative to hydrogen",
-    "boiling": 87.30,
+    "boiling": 87.3,
     "melting": -189.34
   },
   {
@@ -910,7 +910,7 @@
     "universe": "10^−8 relative to hydrogen",
     "boiling": 5285,
     "melting": 3033
-  },  
+  },
   {
     "img": "./img/iridium.png",
     "name": "Iridium",

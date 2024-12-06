@@ -212,9 +212,6 @@ function selectInput(list) {
 /**/
 /*Colour of element updater*/
 
-
-
-
 function colorOfElementUpdaterAlkaliMetal() {
   console.log("Updating Alkali Metals...");
   const allAlkaliMetals = document.querySelectorAll(".alkaliMetal");
@@ -227,12 +224,17 @@ function colorOfElementUpdaterAlkaliMetal() {
 
 function colorOfElementUpdaterAlkalineEarthMetal() {
   console.log("Updating Alkaline Earth Metals...");
-  const allAlkalineEarthMetals = document.querySelectorAll(".alkalineEarthMetal");
+  const allAlkalineEarthMetals = document.querySelectorAll(
+    ".alkalineEarthMetal"
+  );
   for (let i = 0; i < allAlkalineEarthMetals.length; i++) {
     allAlkalineEarthMetals[i].style.background = `rgb(48, 193, 255)`;
     allAlkalineEarthMetals[i].style.boxShadow = `0 0 1vh rgb(48, 193, 255)`;
   }
-  console.log(allAlkalineEarthMetals[0].style.background + " Alkaline Earth Metals updated.");
+  console.log(
+    allAlkalineEarthMetals[0].style.background +
+      " Alkaline Earth Metals updated."
+  );
 }
 
 function colorOfElementUpdaterTransitionElement() {
@@ -242,17 +244,24 @@ function colorOfElementUpdaterTransitionElement() {
     allTransitionElements[i].style.background = `rgb(255, 228, 77)`;
     allTransitionElements[i].style.boxShadow = `0 0 1vh rgb(255, 228, 77)`;
   }
-  console.log(allTransitionElements[0].style.background + " Transition Elements updated.");
+  console.log(
+    allTransitionElements[0].style.background + " Transition Elements updated."
+  );
 }
 
 function colorOfElementUpdaterPostTransitionElement() {
   console.log("Updating Post-Transition Elements...");
-  const allPostTransitionElements = document.querySelectorAll(".postTransitionElement");
+  const allPostTransitionElements = document.querySelectorAll(
+    ".postTransitionElement"
+  );
   for (let i = 0; i < allPostTransitionElements.length; i++) {
     allPostTransitionElements[i].style.background = `rgb(255, 170, 0)`;
     allPostTransitionElements[i].style.boxShadow = `0 0 1vh rgb(255, 170, 0)`;
   }
-  console.log(allPostTransitionElements[0].style.background + " Post-Transition Elements updated.");
+  console.log(
+    allPostTransitionElements[0].style.background +
+      " Post-Transition Elements updated."
+  );
 }
 
 function colorOfElementUpdaterMetalloid() {
@@ -265,14 +274,14 @@ function colorOfElementUpdaterMetalloid() {
   console.log(allMetalloids[0].style.background + " Metalloids updated.");
 }
 
-function colorOfElementUpdaterNonmetal(){
+function colorOfElementUpdaterNonmetal() {
   console.log("hello");
   const allNonMetals = document.querySelectorAll(".nonMetal");
   for (let i = 0; i < allNonMetals.length; i++) {
     allNonMetals[i].style.background = `rgb(255, 69, 112)`;
     allNonMetals[i].style.boxShadow = `0 0 1vh rgb(255, 69, 112)`;
   }
-  console.log(allNonMetals[0].style.background+"yoo");
+  console.log(allNonMetals[0].style.background + "yoo");
 }
 
 function colorOfElementUpdaterNobleGas() {

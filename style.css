@@ -252,7 +252,7 @@ p {
   position: absolute;
   right: -0.1%;
   top: -0.1%;
-  height:9vh;
+  height: 9vh;
   width: 9vh;
   padding: 1rem;
   border-radius: 2rem;
@@ -366,8 +366,8 @@ p {
 /**/
 /*Filter element*/
 .filterElements {
-  display: flex; 
-  align-content: center; 
+  display: flex;
+  align-content: center;
   align-items: center;
 }
 
@@ -426,8 +426,4 @@ p {
   cursor: pointer;
 }
 
-
 /*Filter element*/
-
-
-
