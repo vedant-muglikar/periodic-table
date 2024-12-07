@@ -372,68 +372,137 @@ p {
   gap: 0.4vh;
 }
 
-.filterElements .alkaliMetals {
+.alkaliMetals {
   color: rgb(35, 244, 255);
   padding: 1vh;
   border: solid rgb(35, 244, 255) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
 }
-.filterElements .alkalineEarthMetals {
+.alkalineEarthMetals {
   color: rgb(48, 193, 255);
   padding: 1vh;
   border: solid rgb(48, 193, 255) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
 }
-.filterElements .transitionElements {
+.transitionElements {
   color: rgb(255, 228, 77);
   padding: 1vh;
   border: solid rgb(255, 228, 77) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
 }
-.filterElements .postTransitionElements {
+.postTransitionElements {
   color: rgb(255, 170, 0);
   padding: 1vh;
   border: solid rgb(255, 170, 0) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
 }
-.filterElements .metalloids {
+.metalloids {
   color: rgb(183, 198, 196);
   padding: 1vh;
   border: solid rgb(183, 198, 196) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
 }
-.filterElements .nonMetals {
+.nonMetals {
   color: rgb(255, 69, 112);
   padding: 1vh;
   border: solid rgb(255, 69, 112) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
 }
-.filterElements .nobleGases {
+.nobleGases {
   color: rgb(183, 48, 255);
   padding: 1vh;
   border: solid rgb(183, 48, 255) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
 }
-.filterElements .lanthanoids {
+.lanthanoids {
   color: rgb(180, 255, 41);
   padding: 1vh;
   border: solid rgb(180, 255, 41) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
 }
-.filterElements .actinoids {
+.actinoids {
   color: rgb(0, 255, 115);
-  padding: 1vh;
   border: solid rgb(0, 255, 115) 0.5vh;
   border-radius: 5vh;
   cursor: pointer;
+  padding: 1vh;
 }
 
-/*Filter element*/
+.periodic-bg .alkalineEarthMetal {
+  background: rgb(48, 193, 255);
+}
+
+.periodic-bg .alkaliMetal {
+  background: rgb(35, 244, 255);
+}
+
+.periodic-bg .transitionElement {
+  background: rgb(255, 228, 77);
+}
+
+.periodic-bg .metalloid {
+  background: rgb(183, 198, 196);
+}
+
+.periodic-bg .nobleGas {
+  background: rgb(183, 48, 255);
+}
+
+.periodic-bg .lanthanoid {
+  background: rgb(180, 255, 41);
+}
+
+.periodic-bg .actinoid {
+  background: rgb(0, 255, 115);
+}
+
+.periodic-bg .alkalineEarthMetal {
+  background: rgb(48, 193, 255);
+}
+
+.periodic-bg .nonMetal {
+  background: rgb(255, 69, 112);
+}
+
+.periodic-bg .postTransitionElement {
+  background: rgb(255, 170, 0);
+}
+
+.amglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(35, 244, 255);
+}
+.aemglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(48, 193, 255);
+}
+.teglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(255, 228, 77);
+}
+.pteglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(255, 170, 0);
+}
+.mglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(183, 198, 196);
+}
+.nmglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(255, 69, 112);
+}
+.ngglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(183, 48, 255);
+}
+.laglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(180, 255, 41);
+}
+.acglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(0, 255, 115);
+}
+.ngglow {
+  box-shadow: 0 0 5vh 0.7vh rgb(183, 48, 255);
+}

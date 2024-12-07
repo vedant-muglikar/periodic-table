@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
 
-  <body onload="colorOfAllElementUpdate()">
+  <body>
     <!-------Search box?------->
     <div class="bg-search-box">
       <div class="search-box">
@@ -42,16 +42,15 @@
       </div>
 
       <div class="filterElements" >
-          <div onclick="glowOfElementUpdaterAlkaliMetal()" class="alkaliMetals">Alkali Metals</div>
-          <div onclick="glowOfElementUpdaterAlkalineEarthMetal()" class="alkalineEarthMetals">Alkaline Earth Metals</div>
-          <div onclick="glowOfElementUpdaterTransitionElement()" class="transitionElements">Transition Elements</div>
-          <div onclick="glowOfElementUpdaterPostTransitionElement()" class="postTransitionElements">Post Transition Elements</div>
-          <div onclick="glowOfElementUpdaterMetalloid()" class="metalloids">Metalloids</div>
-          <div onclick="glowOfElementUpdaterNonmetal()" class="nonMetals">Non-Metals</div>
-          <div onclick="glowOfElementUpdaterNobleGas()" class="nobleGases">Noble gases</div>
-          <div onclick="glowOfElementUpdaterLanthanoid()" class="lanthanoids">Lanthanoids</div>
-          <div onclick="glowOfElementUpdaterActinoid()" class="actinoids">Actinoids</div>
-
+        <div onclick="amglowUpdate()" class="alkaliMetals">Alkali Metals</div>
+        <div onclick="aemglowUpdate()" class="alkalineEarthMetals">Alkaline Earth Metals</div>
+        <div onclick="teglowUpdate()" class="transitionElements">Transition Elements</div>
+        <div onclick="pteglowUpdate()" class="postTransitionElements">Post Transition Elements</div>
+        <div onclick="meglowUpdate()" class="metalloids">Metalloids</div>
+        <div onclick="nmglowUpdate()" class="nonMetals">Non-Metals</div>
+        <div onclick="ngglowUpdate()" class="nobleGases">Noble gases</div>
+        <div onclick="laglowUpdate()" class="lanthanoids">Lanthanoids</div>
+        <div onclick="acglowUpdate()" class="actinoids">Actinoids</div>
       </div>
     </div>
     <!-------Search box?------->
@@ -2033,7 +2032,7 @@
 
         <div class="main-info">
           <div class="ele-photo">
-            <img class="ele-img" src="./img/hydrogen.jpg" alt="element-photo" />
+            <img class="ele-img" src="./img/hydrogen.png" alt="element-photo" />
           </div>
           <div class="ele-data">
             <ul>
@@ -2071,8 +2070,7 @@
         </div>
 
         <a href="./info_page.html" class="info-link" target="_blank"
-          >View More...</a
-        >
+          >View More...</a>
       </div>
     </div>
 

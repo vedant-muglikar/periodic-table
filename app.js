@@ -12,6 +12,26 @@ const eleCrust = document.querySelector(".ele-crust");
 const eleUni = document.querySelector(".ele-uni");
 const slider = document.querySelector(".temp-slider");
 const tempValue = document.querySelector(".temp-value-kelvin");
+/*glow effect metals */
+const alkaliMetals = document.querySelectorAll(".alkaliMetal");
+const alkaliEarthMetals = document.querySelectorAll(".alkalineEarthMetal");
+const trans = document.querySelectorAll(".transitionElement");
+const postTrans = document.querySelectorAll(".postTransitionElement");
+const metalloids = document.querySelectorAll(".metalloid");
+const nonMetalloids = document.querySelectorAll(".nonMetal");
+const lanthanoids = document.querySelectorAll(".lanthanoid");
+const actinoids = document.querySelectorAll(".actinoid");
+const nobleGas = document.querySelectorAll(".nobleGas");
+/*fillter buttons */
+const alkaliMetalBtn = document.querySelector(".alkaliMetals");
+const alkaliEarthMetalsBtn = document.querySelector(".alkalineEarthMetals");
+const transBtn = document.querySelector(".transitionElements");
+const postTransBtn = document.querySelector(".postTransitionElements");
+const metalloidsBtn = document.querySelector(".metalloids");
+const nonMetalloidsBtn = document.querySelector(".nonMetals");
+const lanthanoidsBtn = document.querySelector(".lanthanoids");
+const actinoidsBtn = document.querySelector(".actinoids");
+const nobleGasBtn = document.querySelector(".nobleGases");
 
 let elements = [];
 
@@ -44,6 +64,54 @@ function popupUpdate(
 function tempUpdate(temp) {
   slider.value = temp;
   tempValue.value = temp;
+}
+
+/*Glowing effect */
+
+function amglowUpdate() {
+  alkaliMetals.forEach((ele) => {
+    ele.classList.toggle("amglow");
+  });
+}
+function aemglowUpdate() {
+  alkaliEarthMetals.forEach((ele) => {
+    ele.classList.toggle("aemglow");
+  });
+}
+function teglowUpdate() {
+  trans.forEach((ele) => {
+    ele.classList.toggle("teglow");
+  });
+}
+function pteglowUpdate() {
+  postTrans.forEach((ele) => {
+    ele.classList.toggle("pteglow");
+  });
+}
+function meglowUpdate() {
+  metalloids.forEach((ele) => {
+    ele.classList.toggle("mglow");
+  });
+}
+function nmglowUpdate() {
+  nonMetalloids.forEach((ele) => {
+    ele.classList.toggle("nmglow");
+  });
+}
+function ngglowUpdate() {
+  nobleGas.forEach((ele) => {
+    ele.classList.toggle("ngglow");
+  });
+}
+function laglowUpdate() {
+  lanthanoids.forEach((ele) => {
+    ele.classList.toggle("laglow");
+  });
+}
+function acglowUpdate() {
+  actinoids.forEach((ele) => {
+    ele.classList.toggle("acglow");
+  });
 }
 
 /*updating the color of elements */
@@ -196,166 +264,3 @@ function selectInput(list) {
   popupContainer.classList.add("active");
   popup.classList.add("active");
 }
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/*Colour of element updater*/
-
-function colorOfElementUpdaterAlkaliMetal() {
-  const allAlkaliMetals = document.querySelectorAll(".alkaliMetal");
-  for (let i = 0; i < allAlkaliMetals.length; i++) {
-    allAlkaliMetals[i].style.background = `rgb(35, 244, 255)`;
-  }
-}
-
-function colorOfElementUpdaterAlkalineEarthMetal() {
-  const allAlkalineEarthMetals = document.querySelectorAll(
-    ".alkalineEarthMetal"
-  );
-  for (let i = 0; i < allAlkalineEarthMetals.length; i++) {
-    allAlkalineEarthMetals[i].style.background = `rgb(48, 193, 255)`;
-  }
-}
-
-function colorOfElementUpdaterTransitionElement() {
-  const allTransitionElements = document.querySelectorAll(".transitionElement");
-  for (let i = 0; i < allTransitionElements.length; i++) {
-    allTransitionElements[i].style.background = `rgb(255, 228, 77)`;
-  }
-}
-
-function colorOfElementUpdaterPostTransitionElement() {
-  const allPostTransitionElements = document.querySelectorAll(
-    ".postTransitionElement"
-  );
-  for (let i = 0; i < allPostTransitionElements.length; i++) {
-    allPostTransitionElements[i].style.background = `rgb(255, 170, 0)`;
-  }
-}
-
-function colorOfElementUpdaterMetalloid() {
-  const allMetalloids = document.querySelectorAll(".metalloid");
-  for (let i = 0; i < allMetalloids.length; i++) {
-    allMetalloids[i].style.background = `rgb(183, 198, 196)`;
-  }
-}
-
-function colorOfElementUpdaterNonmetal() {
-  const allNonMetals = document.querySelectorAll(".nonMetal");
-  for (let i = 0; i < allNonMetals.length; i++) {
-    allNonMetals[i].style.background = `rgb(255, 69, 112)`;
-  }
-}
-
-function colorOfElementUpdaterNobleGas() {
-  const allNobleGases = document.querySelectorAll(".nobleGas");
-  for (let i = 0; i < allNobleGases.length; i++) {
-    allNobleGases[i].style.background = `rgb(183, 48, 255)`;
-  }
-}
-
-function colorOfElementUpdaterLanthanoid() {
-  const allLanthanoids = document.querySelectorAll(".lanthanoid");
-  for (let i = 0; i < allLanthanoids.length; i++) {
-    allLanthanoids[i].style.background = `rgb(180, 255, 41)`;
-  }
-}
-
-function colorOfElementUpdaterActinoid() {
-  const allActinoids = document.querySelectorAll(".actinoid");
-  for (let i = 0; i < allActinoids.length; i++) {
-    allActinoids[i].style.background = `rgb(0, 255, 115)`;
-  }
-}
-
-
-function colorOfAllElementUpdate(){
-  colorOfElementUpdaterAlkaliMetal();
-  colorOfElementUpdaterAlkalineEarthMetal();
-  colorOfElementUpdaterTransitionElement();
-  colorOfElementUpdaterPostTransitionElement();
-  colorOfElementUpdaterMetalloid();
-  colorOfElementUpdaterNonmetal();
-  colorOfElementUpdaterNobleGas();
-  colorOfElementUpdaterLanthanoid();
-  colorOfElementUpdaterActinoid();
-}
-
-function glowOfElementUpdaterAlkaliMetal() {
-  const allAlkaliMetals = document.querySelectorAll(".alkaliMetal");
-  for (let i = 0; i < allAlkaliMetals.length; i++) {
-    allAlkaliMetals[i].style.boxShadow = `0 0 5vh 0.7vh rgb(35, 244, 255)`;
-  }
-}
-
-function glowOfElementUpdaterAlkalineEarthMetal() {
-  const allAlkalineEarthMetals = document.querySelectorAll(".alkalineEarthMetal");
-  for (let i = 0; i < allAlkalineEarthMetals.length; i++) {
-    allAlkalineEarthMetals[i].style.boxShadow = `0 0 5vh 0.7vh rgb(48, 193, 255)`;
-  }
-}
-
-function glowOfElementUpdaterTransitionElement() {
-
-  const allTransitionElements = document.querySelectorAll(".transitionElement");
-  for (let i = 0; i < allTransitionElements.length; i++) {
-    allTransitionElements[i].style.boxShadow = `0 0 5vh 0.7vh rgb(255, 228, 77)`;
-  }
-}
-
-function glowOfElementUpdaterPostTransitionElement() {
-  const allPostTransitionElements = document.querySelectorAll(".postTransitionElement");
-  for (let i = 0; i < allPostTransitionElements.length; i++) {
-    allPostTransitionElements[i].style.boxShadow = `0 0 5vh 0.7vh rgb(255, 170, 0)`;
-  }
-}
-
-function glowOfElementUpdaterMetalloid() {
-  const allMetalloids = document.querySelectorAll(".metalloid");
-  for (let i = 0; i < allMetalloids.length; i++) {
-    allMetalloids[i].style.boxShadow = `0 0 5vh 0.7vh rgb(183, 198, 196)`;
-  }
-}
-
-function glowOfElementUpdaterNonmetal() {
-  const allNonMetals = document.querySelectorAll(".nonMetal");
-  for (let i = 0; i < allNonMetals.length; i++) {
-    allNonMetals[i].style.boxShadow = `0 0 5vh 0.7vh rgb(255, 69, 112)`;
-  }
-}
-
-function glowOfElementUpdaterNobleGas() {
-  const allNobleGases = document.querySelectorAll(".nobleGas");
-  for (let i = 0; i < allNobleGases.length; i++) {
-    allNobleGases[i].style.boxShadow = `0  0 5vh 0.7vh rgb(183, 48, 255)`;
-  }
-}
-
-function glowOfElementUpdaterLanthanoid() {
-  const allLanthanoids = document.querySelectorAll(".lanthanoid");
-  for (let i = 0; i < allLanthanoids.length; i++) {
-    allLanthanoids[i].style.boxShadow = `0 0 5vh 0.7vh rgb(203, 255, 46)`;
-  }
-}
-
-function glowOfElementUpdaterActinoid() {
-  const allActinoids = document.querySelectorAll(".actinoid");
-  const actinoids = document.querySelectorAll(".actinoids");
-  actinoids[0].style.background = `rgb(0, 255, 115)`;
-  actinoids[0].style.color = `rgb(0, 0, 0)`;
-  for (let i = 0; i < allActinoids.length; i++) {
-    allActinoids[i].style.boxShadow = `0 0 5vh 0.7vh rgb(0, 255, 115)`;
-  }
-}
-/*Colour of element updater*/
