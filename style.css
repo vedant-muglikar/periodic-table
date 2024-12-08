@@ -252,15 +252,31 @@ p {
 
 .popup-close {
   position: absolute;
-  right: -0.1%;
-  top: -0.1%;
-  height: 9vh;
-  width: 9vh;
-  padding: 1rem;
-  border-radius: 2rem;
-  background: rgb(68, 76, 91);
-  color: white;
+  right: 5%;
+  top: 5%;
+  font-size: 1.3rem;
+  padding: 1em;
+  color: black;
   cursor: pointer;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 280ms ease-in;
+  /* transition: background-color 280ms ease;
+  transition: rotate 280ms ease-in; */
+
+  background: rgb(255, 96, 92);
+  box-shadow: none;
+  border: black solid 1.5px;
+}
+
+.popup-close:hover {
+  color: rgb(255, 96, 92);
+  rotate: 180deg;
+  background: white;
+  border-color: rgb(255, 96, 92);
 }
 
 .active {
