@@ -252,12 +252,16 @@ fetch("./data.json")
 /*New code */
 /*youtuber code */
 let availablekeywords = [];
-
+let allElectronicConfig = [];
 fetch("./data.json")
   .then((res) => res.json())
   .then((data) => {
     availablekeywords = data.map((element) => element.name);
-    // console.log(availablekeywords);
+     console.log(availablekeywords);
+    allElectronicConfig = data.map((element) => element.eleConfig);
+    console.log(allElectronicConfig);
+
+    
   });
 /* */
 const resultBox = document.querySelector(".result-box");
@@ -315,3 +319,23 @@ function selectInput(list) {
   popupContainer.classList.add("active");
   popup.classList.add("active");
 }
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*Test code*/
+elements.forEach((element) => {
+  console.log(element.eConfig);
+});
+/*Test code*/
