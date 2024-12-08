@@ -301,7 +301,15 @@ function selectInput(list) {
     eleDensity,
     eleCrust,
     eleUni,
-    element_name
+    element_name,
+    intro,
+    prop,
+    application,
+    eleImgInfo,
+    eleNoInfo,
+    eleMassInfo,
+    eleConfigInfo,
+    eleDensityInfo
   );
 
   popupContainer.classList.add("active");
