@@ -27,7 +27,7 @@
     "boiling": 4.22,
     "melting": 0.95,
     "intro": "jod jod jod",
-    "eleConfig": [2]
+    "eleConfig": [2, 8, 18, 32, 32, 18, 8]
   },
   {
     "img": "./img/lithium.png",

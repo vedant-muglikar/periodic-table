@@ -48,6 +48,10 @@ p {
   padding: 10px;
   border: 0.3vh solid black;
 }
+/*to make element name appear on top*/
+.element-box:hover .inner-element-name {
+  z-index: 1;
+}
 
 .periodic-bg .element-box .hyperlink {
   height: 100%;
@@ -156,6 +160,7 @@ p {
   opacity: 0; /* Fade out original content */
   pointer-events: none;
   display: none;
+  z-index: 1;
 }
 
 .element-box:hover .element-hover {
@@ -524,3 +529,26 @@ p {
 .ngglow {
   box-shadow: 0 0 5vh 0.7vh rgb(183, 48, 255);
 }
+/*test code*/
+
+
+.main .element-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0%;
+  left: 0%;
+}
+
+.main .element-box .nucleus{
+  position: absolute;
+  width: 1vh;
+  height: 1vh;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.main .element-box .eleContainer{
+  position: absolute;
+}
+/*test code*/

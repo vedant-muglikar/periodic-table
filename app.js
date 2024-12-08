@@ -252,16 +252,13 @@ fetch("./data.json")
 /*New code */
 /*youtuber code */
 let availablekeywords = [];
-let allElectronicConfig = [];
 fetch("./data.json")
   .then((res) => res.json())
   .then((data) => {
     availablekeywords = data.map((element) => element.name);
      console.log(availablekeywords);
-    allElectronicConfig = data.map((element) => element.eleConfig);
-    console.log(allElectronicConfig);
 
-    
+
   });
 /* */
 const resultBox = document.querySelector(".result-box");
@@ -335,7 +332,104 @@ function selectInput(list) {
 /**/
 /**/
 /*Test code*/
-elements.forEach((element) => {
-  console.log(element.eConfig);
-});
+let allElectronicConfig = [];
+fetch("./data.json")
+  .then((res) => res.json())
+  .then((data) => {
+    allElectronicConfig = data.map((element) => element.eleConfig);
+    console.log(allElectronicConfig);
+
+    const allSq = document.querySelectorAll(".element-box");
+
+for (let i = 0; i < allSq.length; i++) {
+  const windowHeight = window.innerHeight;
+
+
+
+  var electronicConfig = allElectronicConfig[i];
+  
+  let cnt =0;
+  for(let i=0; i<electronicConfig.length;i++){
+    cnt=cnt+electronicConfig[i];
+  }
+  const atomicNo = cnt;
+
+  const noOfshells = electronicConfig.length;
+
+  const electronDiam = (windowHeight / 100 )* 0.3;
+  const iniDiam = 0.08 * allSq[i].clientHeight;
+  const finDiam = 0.6 * allSq[i].clientHeight;
+  const distanceBetweenOribt = (iniDiam + finDiam) / (noOfshells + 1);
+  var orbitalDiam = iniDiam + distanceBetweenOribt;
+
+  let r,g,b,nR,nG,nB;
+  r=0;
+  g=0;
+  b=0;
+  nR=Math.max(r,g,b)+Math.min(r,g,b)-r
+  nG=Math.max(r,g,b)+Math.min(r,g,b)-g
+  nB=Math.max(r,g,b)+Math.min(r,g,b)-b
+  console.log(nR+"r"+nG+"g"+nB+"b");
+
+  const nucleus = document.createElement("div");
+  nucleus.className = "nucleus";
+  nucleus.style.background = `rgb(${nR},${nG},${nB})`;
+  nucleus.style.height = `${(100 / windowHeight) * electronDiam}vh`;
+  nucleus.style.width = `${(100 / windowHeight) * electronDiam}vh`;
+  allSq[i].appendChild(nucleus);
+
+  for (let j = 0; j < atomicNo; j++) {
+    //Creating box to contain electrons and creating the electrons
+    var eleContainer = document.createElement("div");
+    allSq[i].appendChild(eleContainer);
+
+    eleContainer.className = "eleContainer";
+    var electron = document.createElement("div");
+
+    eleContainer.appendChild(electron);
+    eleContainer.style.zIndex = "0";
+
+    //styling
+    electron.style.background = `rgb(${nR},${nG},${nB})`;
+    electron.style.height = `${(100 / windowHeight) * electronDiam}vh`;
+    electron.style.width = `${(100 / windowHeight) * electronDiam}vh`;
+    electron.style.borderRadius = "50%";
+    electron.style.zIndex = "0";
+  }
+
+  const allEleContainer = allSq[i].querySelectorAll(".eleContainer"); //collecting all electrons boxes
+
+  for (let shellNo = 0, l = 0; shellNo < noOfshells; shellNo++) {
+    for (let g = 0; g < electronicConfig[shellNo]; g++, l++) {
+      //giving elecrons different radius in different shells
+      allEleContainer[l].style.height = `${
+        (100 / windowHeight) * orbitalDiam
+      }vh`;
+      allEleContainer[l].style.width = `${
+        (100 / windowHeight) * orbitalDiam
+      }vh`;
+    }
+    orbitalDiam = orbitalDiam + distanceBetweenOribt;
+  }
+
+  for (let k = 0, y = 0, duration = 10000, shellNo = 0; k < atomicNo; k++) {
+    //duration and delay to make electrons spin nicely
+    for (let f = 0; f < electronicConfig[shellNo]; f++) {
+      var delay = f * (duration / electronicConfig[shellNo]);
+      allEleContainer[y++].animate(
+        [{ transform: "rotate(0)" }, { transform: "rotate(360deg)" }],
+        {
+          duration: duration,
+          delay: -delay,
+          iterations: Infinity,
+        }
+      );
+    }
+    duration = duration + 10000;
+    shellNo++;
+  }
+}
+
+  });
+/* */
 /*Test code*/
