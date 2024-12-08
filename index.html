@@ -8,16 +8,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
       integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <title>The Periodic Table</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./info_style.css" />
   </head>
 
   <body>
@@ -30,8 +29,7 @@
             type="text"
             id="input-box"
             placeholder="search a element"
-            autocomplete="off"
-          />
+            autocomplete="off" />
         </div>
         <div class="result-box"></div>
       </div>
@@ -41,11 +39,17 @@
         <input type="text" class="temp-value-kelvin" />
       </div>
 
-      <div class="filterElements" >
+      <div class="filterElements">
         <div onclick="amglowUpdate()" class="alkaliMetals">Alkali Metals</div>
-        <div onclick="aemglowUpdate()" class="alkalineEarthMetals">Alkaline Earth Metals</div>
-        <div onclick="teglowUpdate()" class="transitionElements">Transition Elements</div>
-        <div onclick="pteglowUpdate()" class="postTransitionElements">Post Transition Elements</div>
+        <div onclick="aemglowUpdate()" class="alkalineEarthMetals">
+          Alkaline Earth Metals
+        </div>
+        <div onclick="teglowUpdate()" class="transitionElements">
+          Transition Elements
+        </div>
+        <div onclick="pteglowUpdate()" class="postTransitionElements">
+          Post Transition Elements
+        </div>
         <div onclick="meglowUpdate()" class="metalloids">Metalloids</div>
         <div onclick="nmglowUpdate()" class="nonMetals">Non-Metals</div>
         <div onclick="ngglowUpdate()" class="nobleGases">Noble gases</div>
@@ -55,7 +59,7 @@
     </div>
     <!-------Search box?------->
 
-    <div class="main">
+    <section class="main">
       <div class="periodic-bg" id="backgroundOfPeriodicTable">
         <!----------this id is temp could change or code can change not to use-->
         <!------------------------Start of periodic table--------------------------->
@@ -79,7 +83,7 @@
         </div>
         <!----------First empty space--------------------------------->
         <div class="empty-space-one"></div>
-        
+
         <div class="element-box Helium nobleGas">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -95,7 +99,7 @@
             </div>
           </a>
         </div>
-        
+
         <!------------------------2nd Period--------------------------->
 
         <div class="element-box Lithium alkaliMetal">
@@ -228,8 +232,6 @@
           </a>
         </div>
 
-        
-
         <!------------------------3rd Period--------------------------->
 
         <div class="element-box Sodium alkaliMetal">
@@ -247,7 +249,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Magnesium alkalineEarthMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -263,9 +265,9 @@
             </div>
           </a>
         </div>
-        
+
         <div class="empty-space-three"></div>
-        
+
         <div class="element-box Aluminium postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -281,7 +283,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Silicon metalloid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -297,7 +299,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Phosphorus nonMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -313,7 +315,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Sulfur nonMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -329,7 +331,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Chlorine nonMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -345,7 +347,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Argon nobleGas">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -361,8 +363,7 @@
             </div>
           </a>
         </div>
-        
-        
+
         <!----------------------4th Period------------------>
         <div class="element-box Potassium alkaliMetal">
           <a class="hyperlink" href="#h">
@@ -379,7 +380,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Calcium alkalineEarthMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -395,7 +396,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Scandium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -411,7 +412,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Titanium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -427,7 +428,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Vanadium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -443,7 +444,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Chromium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -459,7 +460,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Manganese transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -475,7 +476,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Iron transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -491,7 +492,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Cobalt transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -507,7 +508,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Nickel transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -523,7 +524,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Copper transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -539,7 +540,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Zinc transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -555,7 +556,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Gallium postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -571,7 +572,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Germanium metalloid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -587,7 +588,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Arsenic metalloid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -603,7 +604,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Selenium nonMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -619,8 +620,7 @@
             </div>
           </a>
         </div>
-        
-        
+
         <div class="element-box Bromine nonMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -636,7 +636,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Krypton nobleGas">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -652,8 +652,6 @@
             </div>
           </a>
         </div>
-        
-        
 
         <!----------------------5th Period------------------>
 
@@ -672,7 +670,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Strontium alkalineEarthMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -688,7 +686,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Yttrium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -704,7 +702,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Zirconium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -720,7 +718,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Niobium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -736,7 +734,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Molybdenum transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -752,7 +750,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Technetium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -768,7 +766,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Ruthenium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -784,7 +782,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Rhodium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -800,7 +798,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Palladium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -816,7 +814,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Silver transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -832,7 +830,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Cadmium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -848,7 +846,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Indium postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -864,7 +862,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Tin postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -880,7 +878,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Antimony metalloid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -896,7 +894,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Tellurium metalloid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -912,7 +910,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Iodine nonMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -928,8 +926,7 @@
             </div>
           </a>
         </div>
-        
-        
+
         <div class="element-box Xenon nobleGas">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -945,7 +942,7 @@
             </div>
           </a>
         </div>
-        
+
         <!-----------------------6th Period-->
 
         <div class="element-box Cesium alkaliMetal">
@@ -963,7 +960,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Barium alkalineEarthMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -980,7 +977,12 @@
           </a>
         </div>
 
-        <div class="element-box" style="border: 2px solid #b500c6; background-color: rgb(180, 255, 41);">
+        <div
+          class="element-box"
+          style="
+            border: 2px solid #b500c6;
+            background-color: rgb(180, 255, 41);
+          ">
           <a class="hyperlink" href="#h">
             <div class="element">
               <div class="inner-element-name">-</div>
@@ -1009,7 +1011,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Tantalum transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1025,7 +1027,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Tungsten transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1041,7 +1043,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Rhenium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1057,7 +1059,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Osmium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1073,7 +1075,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Iridium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1089,7 +1091,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Platinum transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1105,7 +1107,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Gold transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1121,7 +1123,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Mercury transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1137,7 +1139,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Thallium postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1153,7 +1155,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Lead postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1169,7 +1171,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Bismuth postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1185,7 +1187,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Polonium metalloid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1201,7 +1203,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Astatine metalloid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1217,7 +1219,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Radon nobleGas">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1233,7 +1235,6 @@
             </div>
           </a>
         </div>
-        
 
         <!--------------------7th Period--------------->
 
@@ -1252,7 +1253,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Radium alkalineEarthMetal">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1269,7 +1270,9 @@
           </a>
         </div>
 
-        <div class="element-box" style="border: 2px solid #b500c6; background-color: rgb(0, 255, 115);">
+        <div
+          class="element-box"
+          style="border: 2px solid #b500c6; background-color: rgb(0, 255, 115)">
           <a class="hyperlink" href="#h">
             <div class="element">
               <div class="inner-element-name">-</div>
@@ -1298,7 +1301,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Dubnium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1314,7 +1317,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Seaborgium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1330,7 +1333,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Bohrium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1346,7 +1349,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Hassium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1362,7 +1365,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Meitnerium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1378,7 +1381,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Darmstadtium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1394,7 +1397,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Roentgenium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1410,7 +1413,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Copernicium transitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1426,7 +1429,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Nihonium postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1442,7 +1445,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Flerovium postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1458,7 +1461,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Moscovium postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1474,7 +1477,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Livermorium postTransitionElement">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1490,7 +1493,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Tennessine metalloid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1506,7 +1509,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Oganesson nobleGas">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1522,8 +1525,6 @@
             </div>
           </a>
         </div>
-        
-        
 
         <div class="divider"></div>
 
@@ -1548,7 +1549,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Cerium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1564,7 +1565,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Praseodymium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1580,7 +1581,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Neodymium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1596,7 +1597,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Promethium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1612,7 +1613,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Samarium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1628,7 +1629,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Europium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1644,7 +1645,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Gadolinium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1660,7 +1661,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Terbium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1676,7 +1677,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Dysprosium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1692,7 +1693,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Holmium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1708,7 +1709,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Erbium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1724,7 +1725,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Thulium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1740,7 +1741,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Ytterbium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1756,7 +1757,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Lutetium lanthanoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1772,7 +1773,7 @@
             </div>
           </a>
         </div>
-        
+
         <!------------------------5th Empty Space---------------------->
         <div class="empty-space-five"></div>
 
@@ -1793,7 +1794,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Thorium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1809,7 +1810,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Protactinium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1825,7 +1826,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Uranium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1841,7 +1842,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Neptunium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1857,7 +1858,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Plutonium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1873,7 +1874,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Americium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1889,7 +1890,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Curium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1905,7 +1906,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Berkelium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1921,7 +1922,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Californium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1937,7 +1938,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Einsteinium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1953,7 +1954,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Fermium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1969,7 +1970,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Mendelevium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -1985,7 +1986,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Nobelium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -2001,7 +2002,7 @@
             </div>
           </a>
         </div>
-        
+
         <div class="element-box Lawrencium actinoid">
           <a class="hyperlink" href="#h">
             <div class="element">
@@ -2017,13 +2018,10 @@
             </div>
           </a>
         </div>
-        
-        
+      </div>
+    </section>
 
-
-
-<!-----------------------popup------------------------------------------------------------------>
-
+    <!-----------------------popup------------------------------------------------------------------>
 
     <div class="popup-container">
       <div class="popup">
@@ -2069,10 +2067,84 @@
           </ul>
         </div>
 
-        <a href="./info_page.html" class="info-link" target="_blank"
-          >View More...</a>
+        <a href="#info-page" class="info-link">View More...</a>
       </div>
     </div>
+
+    <section id="info-page">
+      <div class="basic container">
+        <div class="photo">
+          <img src="./img/hydrogen.png" class="ele-img-info" alt="hydrogen" />
+        </div>
+        <div class="element-info">
+          <ul>
+            <li>
+              <h3>Atomic Number:-</h3>
+              <h3 class="ele-no-info">10</h3>
+            </li>
+            <li>
+              <h3>Atomic Mass:-</h3>
+              <h3 class="ele-mass-info">2</h3>
+            </li>
+            <li>
+              <h3>Electronic Configuration:-</h3>
+              <h3 class="ele-e-config-info">Lorem ipsum dolor sit amet.</h3>
+            </li>
+            <li>
+              <h3>Density:-</h3>
+              <h3 class="ele-density-info">45</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="intro container">
+        <h2>Introduction</h2>
+        <div class="intro-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          debitis deleniti eum vitae enim, reiciendis voluptas dolore officiis
+          explicabo assumenda consectetur quisquam quasi mollitia ratione
+          accusamus odit minus architecto esse?
+        </div>
+      </div>
+
+      <div class="properties container">
+        <h2>Properties</h2>
+        <div class="prop">
+          <h3>Physical Properties</h3>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+          <h3>Nuclear Properties</h3>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+          <h3>Chemical Properties</h3>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="application container">
+        <h2>Application</h2>
+        <div class="app-p">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
+          quas numquam obcaecati tempora commodi, praesentium voluptates
+          molestiae illum voluptas enim dignissimos aliquam error quasi alias,
+          doloremque corporis eveniet modi reprehenderit itaque qui facilis
+          totam! Porro dolorem optio ratione molestiae placeat fugiat nemo atque
+          eaque quam! Beatae quibusdam sunt eos placeat qui saepe molestias
+          reiciendis amet nemo, quod sint repellendus porro.
+        </div>
+      </div>
+    </section>
 
     <script src="./app.js" defer></script>
   </body>

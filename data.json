@@ -9,7 +9,10 @@
     "crust": "0.14%",
     "universe": "74%",
     "boiling": 20.28,
-    "melting": 14.01
+    "melting": 14.01,
+    "intro": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, asperiores impedit? Nisi, cupiditate? Nemo commodi rem aperiam adipisci vitae officiis facilis odio ullam suscipit error dolore illo non eligendi doloremque repellendus omnis est mollitia, consectetur rerum neque eaque itaque sint? Facere, ad? Quisquam molestias veniam exercitationem repellat earum dolores similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam quisquam eveniet illum, cumque nesciunt nam labore possimus earum atque ex maiores rem neque nostrum aut accusamus minima accusantium, non doloremque. Non quibusdam illum perferendis possimus iure perspiciatis. Nobis, dolores. Iure perspiciatis quidem doloremque quia numquam est, explicabo aspernatur commodi.",
+    "properties": "jod jdo jod",
+    "application": "vedant vedant vedant"
   },
   {
     "img": "./img/helium.png",
@@ -21,7 +24,8 @@
     "crust": "0.00052%",
     "universe": "10^−4 relative to hydrogen",
     "boiling": 4.22,
-    "melting": 0.95
+    "melting": 0.95,
+    "intro": "jod jod jod"
   },
   {
     "img": "./img/lithium.png",

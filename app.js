@@ -33,6 +33,17 @@ const lanthanoidsBtn = document.querySelector(".lanthanoids");
 const actinoidsBtn = document.querySelector(".actinoids");
 const nobleGasBtn = document.querySelector(".nobleGases");
 
+/*info page elements */
+const intro = document.querySelector(".intro-p");
+const infoLink = document.querySelector(".info-link");
+const prop = document.querySelector(".prop");
+const application = document.querySelector(".app-p");
+const eleImgInfo = document.querySelector(".ele-img-info");
+const eleNoInfo = document.querySelector(".ele-no-info");
+const eleMassInfo = document.querySelector(".ele-mass-info");
+const eleConfigInfo = document.querySelector(".ele-e-config-info");
+const eleDensityInfo = document.querySelector(".ele-density-info");
+
 let elements = [];
 
 function popupUpdate(
@@ -44,7 +55,15 @@ function popupUpdate(
   density,
   crust,
   universe,
-  element_name
+  element_name,
+  intro,
+  properties,
+  application,
+  infoImg,
+  infoAtNo,
+  infoAtMass,
+  infoEConfig,
+  infoDensity
 ) {
   elements.forEach((e) => {
     if (e.name == element_name) {
@@ -56,6 +75,14 @@ function popupUpdate(
       density.innerText = e.density;
       crust.innerText = e.crust;
       universe.innerText = e.universe;
+      intro.innerHTML = e.intro;
+      properties.innerHTML = e.properties;
+      application.innerHTML = e.application;
+      infoImg.src = e.img;
+      infoAtNo.innerText = e.atNo;
+      infoAtMass.innerText = e.atMass;
+      infoEConfig.innerHTML = e.eConfig;
+      infoDensity.innerText = e.density;
     }
   });
 }
@@ -124,7 +151,6 @@ function colorUpdate(temp) {
         /*gass*/
         if (element.boiling < temp) {
           box.style.borderColor = "#DCDCDC";
-          box.children[0].style.color = "black";
         }
         /*liquid*/
         if (element.boiling > temp && temp > element.melting) {
@@ -132,12 +158,18 @@ function colorUpdate(temp) {
         }
         /*solid*/
         if (element.melting > temp) {
-          box.style.borderColor = "#FF7F7F";
+          box.style.borderColor = "rgb(229, 5, 5)";
         }
       }
     });
   });
 }
+
+/*info link syncing */
+infoLink.addEventListener("click", (e) => {
+  popupContainer.classList.remove("active");
+  popup.classList.remove("active");
+});
 
 /*working of popup */
 closeBtn.addEventListener("click", () => {
@@ -158,7 +190,15 @@ elementCards.forEach((card) => {
       eleDensity,
       eleCrust,
       eleUni,
-      element_name
+      element_name,
+      intro,
+      prop,
+      application,
+      eleImgInfo,
+      eleNoInfo,
+      eleMassInfo,
+      eleConfigInfo,
+      eleDensityInfo
     );
     popupContainer.classList.add("active");
     popup.classList.add("active");
@@ -193,6 +233,9 @@ fetch("./data.json")
         universe: element.universe,
         boiling: element.boiling,
         melting: element.melting,
+        intro: element.intro,
+        properties: element.properties,
+        application: element.application,
       };
     });
   });
