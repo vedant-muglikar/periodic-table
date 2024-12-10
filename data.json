@@ -1205,9 +1205,8 @@
     "crust": "0.0004%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3464,
-    "melting": 1193
-    
-    
+    "melting": 1193,
+    "eleConfig": [2, 8, 18, 18, 9, 2]
   },
   {
     "img": "./img/cerium.png",
@@ -1219,9 +1218,8 @@
     "crust": "0.0046%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3425,
-    "melting": 1071
-    
-   
+    "melting": 1071,
+    "eleConfig": [2, 8, 18, 18, 10, 2]
   },
   {
     "img": "./img/praseodymium.png",
@@ -1233,10 +1231,8 @@
     "crust": "0.0007%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3407,
-    "melting": 931
-    
-
-    
+    "melting": 931,
+    "eleConfig": [2, 8, 18, 18, 11, 2]
   },
   {
     "img": "./img/neodymium.png",
@@ -1248,8 +1244,8 @@
     "crust": "0.0006%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3347,
-    "melting": 1024
-    
+    "melting": 1024,
+    "eleConfig": [2, 8, 18, 18, 12, 2]
   },
   {
     "img": "./img/promethium.png",
@@ -1261,9 +1257,8 @@
     "crust": "trace",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3273,
-    "melting": 1315
-    
-
+    "melting": 1315,
+    "eleConfig": [2, 8, 18, 18, 13, 2]
   },
   {
     "img": "./img/samarium.png",
@@ -1275,10 +1270,8 @@
     "crust": "0.0004%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2067,
-    "melting": 1077
-    
-
-
+    "melting": 1077,
+    "eleConfig": [2, 8, 18, 18, 14, 2]
   },
   {
     "img": "./img/europium.png",
@@ -1290,8 +1283,8 @@
     "crust": "0.0001%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1802,
-    "melting": 1095
-    
+    "melting": 1095,
+    "eleConfig": [2, 8, 18, 18, 15, 2]
   },
   {
     "img": "./img/gadolinium.png",
@@ -1303,8 +1296,8 @@
     "crust": "0.0007%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3273,
-    "melting": 1585
-    
+    "melting": 1585,
+    "eleConfig": [2, 8, 18, 18, 16, 1, 2]
   },
   {
     "img": "./img/terbium.png",
@@ -1316,9 +1309,8 @@
     "crust": "0.0002%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3230,
-    "melting": 1629
-    
-
+    "melting": 1629,
+    "eleConfig": [2, 8, 18, 18, 17, 2]
   },
   {
     "img": "./img/dysprosium.png",
@@ -1330,175 +1322,9 @@
     "crust": "0.0002%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2840,
-    "melting": 1680
-    
-  },
-  {
-    "img": "./img/holmium.png",
-    "name": "Holmium",
-    "atNo": "67",
-    "atMass": "164.93 u",
-    "eConfig": "[Xe]4f<sup>11</sup>6s<sup>2</sup>",
-    "density": "8.79 g/cm³",
-    "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 2720,
-    "melting": 1747
-    
-
-  },
-  {
-    "img": "./img/erbium.png",
-    "name": "Erbium",
-    "atNo": "68",
-    "atMass": "167.26 u",
-    "eConfig": "[Xe]4f<sup>12</sup>6s<sup>2</sup>",
-    "density": "9.07 g/cm³",
-    "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 3141,
-    "melting": 1529
-    
-  },
-  {
-    "img": "./img/thulium.png",
-    "name": "Thulium",
-    "atNo": "69",
-    "atMass": "168.93 u",
-    "eConfig": "[Xe]4f<sup>13</sup>6s<sup>2</sup>",
-    "density": "9.32 g/cm³",
-    "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 1950,
-    "melting": 1818
-    
-
-  },
-  {
-    "img": "./img/ytterbium.png",
-    "name": "Ytterbium",
-    "atNo": "70",
-    "atMass": "173.04 u",
-    "eConfig": "[Xe]4f<sup>14</sup>6s<sup>2</sup>",
-    "density": "6.90 g/cm³",
-    "crust": "0.0003%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 1469,
-    "melting": 1097
-    
-
-  },
-  {
-    "img": "./img/lutetium.png",
-    "name": "Lutetium",
-    "atNo": "71",
-    "atMass": "174.97 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>1</sup>6s<sup>2</sup>",
-    "density": "9.84 g/cm³",
-    "crust": "0.00005%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 3402,
-    "melting": 1925
-    
-  },
-  
-  
-  {
-    "img": "./img/actinium.png",
-    "name": "Actinium",
-    "atNo": "89",
-    "atMass": "227 u",
-    "eConfig": "[Rn]6d<sup>1</sup>7s<sup>2</sup>",
-    "density": "10.07 g/cm³",
-    "crust": "0.00002%",
-    "universe": "10^−10 relative to hydrogen",
-    "boiling": 3471,
-    "melting": 1050
-  },
-  {
-    "img": "./img/thorium.png",
-    "name": "Thorium",
-    "atNo": "90",
-    "atMass": "232.038 u",
-    "eConfig": "[Rn]6d<sup>2</sup>7s<sup>2</sup>",
-    "density": "11.72 g/cm³",
-    "crust": "0.0002%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 5061,
-    "melting": 1750
-  },
-  {
-    "img": "./img/protactinium.png",
-    "name": "Protactinium",
-    "atNo": "91",
-    "atMass": "231.035 u",
-    "eConfig": "[Rn]5f<sup>2</sup>6d<sup>1</sup>7s<sup>2</sup>",
-    "density": "15.37 g/cm³",
-    "crust": "0.000003%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 4027,
-    "melting": 1568
-  },
-  {
-    "img": "./img/uranium.png",
-    "name": "Uranium",
-    "atNo": "92",
-    "atMass": "238.029 u",
-    "eConfig": "[Rn]5f<sup>3</sup>6d<sup>1</sup>7s<sup>2</sup>",
-    "density": "18.95 g/cm³",
-    "crust": "0.00018%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 4131,
-    "melting": 1135
-  },
-  {
-    "img": "./img/neptunium.png",
-    "name": "Neptunium",
-    "atNo": "93",
-    "atMass": "237.048 u",
-    "eConfig": "[Rn]5f<sup>4</sup>6d<sup>1</sup>7s<sup>2</sup>",
-    "density": "20.45 g/cm³",
-    "crust": "trace",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 4173,
-    "melting": 644
-  },
-  {
-    "img": "./img/plutonium.png",
-    "name": "Plutonium",
-    "atNo": "94",
-    "atMass": "244 u",
-    "eConfig": "[Rn]5f<sup>6</sup>7s<sup>2</sup>",
-    "density": "19.84 g/cm³",
-    "crust": "trace",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 3228,
-    "melting": 639
-  },
-  {
-    "img": "./img/americium.png",
-    "name": "Americium",
-    "atNo": "95",
-    "atMass": "241.06 u",
-    "eConfig": "[Rn]5f<sup>7</sup>7s<sup>2</sup>",
-    "density": "12.01 g/cm³",
-    "crust": "trace",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 2880,
-    "melting": 1176
-  },
-  {
-    "img": "./img/curium.png",
-    "name": "Curium",
-    "atNo": "96",
-    "atMass": "247 u",
-    "eConfig": "[Rn]5f<sup>7</sup>6d<sup>1</sup>7s<sup>2</sup>",
-    "density": "13.51 g/cm³",
-    "crust": "trace",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 3383,
-    "melting": 1449
-  },
+    "melting": 1680,
+    "eleConfig": [2, 8, 18, 18, 18, 2]
+  },  
   {
     "img": "./img/berkelium.png",
     "name": "Berkelium",
@@ -1509,7 +1335,8 @@
     "crust": "trace",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3227,
-    "melting": 1259
+    "melting": 1259,
+    "eleConfig": [2, 8, 18, 32, 27, 8, 2]
   },
   {
     "img": "./img/californium.png",
@@ -1521,7 +1348,8 @@
     "crust": "trace",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1625,
-    "melting": 900
+    "melting": 900,
+    "eleConfig": [2, 8, 18, 32, 28, 8, 2]
   },
   {
     "img": "./img/einsteinium.png",
@@ -1533,7 +1361,8 @@
     "crust": "trace",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 996,
-    "melting": 1133
+    "melting": 1133,
+    "eleConfig": [2, 8, 18, 32, 29, 8, 2]
   },
   {
     "img": "./img/fermium.png",
@@ -1545,7 +1374,8 @@
     "crust": "trace",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1800,
-    "melting": 1527
+    "melting": 1527,
+    "eleConfig": [2, 8, 18, 32, 30, 8, 2]
   },
   {
     "img": "./img/mendelevium.png",
@@ -1557,7 +1387,8 @@
     "crust": "trace",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1407,
-    "melting": 1294
+    "melting": 1294,
+    "eleConfig": [2, 8, 18, 32, 31, 8, 2]
   },
   {
     "img": "./img/nobelium.png",
@@ -1569,19 +1400,21 @@
     "crust": "trace",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1100,
-    "melting": 827
+    "melting": 827,
+    "eleConfig": [2, 8, 18, 32, 32, 8, 2]
   },
   {
     "img": "./img/lawrencium.png",
     "name": "Lawrencium",
     "atNo": "103",
     "atMass": "262 u",
-    "eConfig": "[Rn]5f<sup>14</sup>7s<sup>2</sup>",
+    "eConfig": "[Rn]5f<sup>14</sup>7s<sup>2</sup>7p<sup>1</sup>",
     "density": "13.5 g/cm³",
     "crust": "trace",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1627,
-    "melting": 1627
+    "melting": 1627,
+    "eleConfig": [2, 8, 18, 32, 32, 8, 3]
   },
   {
     "img": "./img/rutherfordium.png",
@@ -1593,8 +1426,9 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
-  },
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 10, 2]
+  },  
   {
     "img": "./img/dubnium.png",
     "name": "Dubnium",
@@ -1605,7 +1439,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 11, 2]
   },
   {
     "img": "./img/seaborgium.png",
@@ -1617,7 +1452,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 12, 2]
   },
   {
     "img": "./img/bohrium.png",
@@ -1629,7 +1465,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 13, 2]
   },
   {
     "img": "./img/hassium.png",
@@ -1641,7 +1478,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 14, 2]
   },
   {
     "img": "./img/meitnerium.png",
@@ -1653,7 +1491,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 15, 2]
   },
   {
     "img": "./img/darmstadtium.png",
@@ -1665,7 +1504,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 16, 2]
   },
   {
     "img": "./img/roentgenium.png",
@@ -1677,7 +1517,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 17, 2]
   },
   {
     "img": "./img/copernicium.png",
@@ -1689,7 +1530,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 2]
   },
   {
     "img": "./img/nihonium.png",
@@ -1701,7 +1543,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 3]
   },
   {
     "img": "./img/flerovium.png",
@@ -1713,8 +1556,10 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
-  },
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 4]
+  }
+  ,
   {
     "img": "./img/moscovium.png",
     "name": "Moscovium",
@@ -1725,7 +1570,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 5]
   },
   {
     "img": "./img/livermorium.png",
@@ -1737,7 +1583,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 6]
   },
   {
     "img": "./img/tennessine.png",
@@ -1749,7 +1596,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 7]
   },
   {
     "img": "./img/oganesson.png",
@@ -1761,6 +1609,8 @@
     "crust": "trace",
     "universe": "trace",
     "boiling": "unmeasured",
-    "melting": "unmeasured"
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 8]
   }
+  
 ]

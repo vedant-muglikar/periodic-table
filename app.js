@@ -371,16 +371,11 @@ for (let i = 0; i < allSq.length; i++) {
   nB=Math.max(r,g,b)+Math.min(r,g,b)-b
   console.log(nR+"r"+nG+"g"+nB+"b");
 
-  const nucleus = document.createElement("div");
-  nucleus.className = "nucleus";
-  nucleus.style.background = `rgb(${nR},${nG},${nB})`;
-  nucleus.style.height = `${(100 / windowHeight) * electronDiam}vh`;
-  nucleus.style.width = `${(100 / windowHeight) * electronDiam}vh`;
-  allSq[i].appendChild(nucleus);
+
 
   for (let j = 0; j < atomicNo; j++) {
     //Creating box to contain electrons and creating the electrons
-    var eleContainer = document.createElement("div");
+    var eleContainer = document.createElement("span");
     allSq[i].appendChild(eleContainer);
 
     eleContainer.className = "eleContainer";
@@ -394,7 +389,7 @@ for (let i = 0; i < allSq.length; i++) {
     electron.style.height = `${(100 / windowHeight) * electronDiam}vh`;
     electron.style.width = `${(100 / windowHeight) * electronDiam}vh`;
     electron.style.borderRadius = "50%";
-    electron.style.zIndex = "0";
+    electron.style.zIndex = "-3";
   }
 
   const allEleContainer = allSq[i].querySelectorAll(".eleContainer"); //collecting all electrons boxes
