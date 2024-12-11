@@ -63,3 +63,15 @@ li {
 .properties {
   flex-direction: column;
 }
+
+.intro-p {
+  margin: 0.5rem;
+}
+
+.app-p {
+  margin: 0.5rem;
+}
+
+.prop {
+  margin: 0.5rem;
+}
