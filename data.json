@@ -10,11 +10,11 @@
     "universe": "74%",
     "boiling": 20.28,
     "melting": 14.01,
-    "intro": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, asperiores impedit? Nisi, cupiditate? Nemo commodi rem aperiam adipisci vitae officiis facilis odio ullam suscipit error dolore illo non eligendi doloremque repellendus omnis est mollitia, consectetur rerum neque eaque itaque sint? Facere, ad? Quisquam molestias veniam exercitationem repellat earum dolores similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam quisquam eveniet illum, cumque nesciunt nam labore possimus earum atque ex maiores rem neque nostrum aut accusamus minima accusantium, non doloremque. Non quibusdam illum perferendis possimus iure perspiciatis. Nobis, dolores. Iure perspiciatis quidem doloremque quia numquam est, explicabo aspernatur commodi.",
-    "properties": "jod jdo jod",
-    "application": "vedant vedant vedant",
-    "eleConfig": [1]
-  },
+    "eleConfig": [1],
+    "intro": "Hydrogen is the simplest and most abundant chemical element in the universe. It is represented by the symbol H and has an atomic number of 1. Hydrogen is the lightest element and forms the basis for all other elements in the periodic table.",
+    "properties": "<ul><li>Atomic Number: 1</li><li>Atomic Mass: ~1.008 amu</li><li>Electron Configuration: 1s<sup>1</sup></li><li>Physical State: Gas at room temperature</li><li>Color: Colorless</li><li>Odor: Odorless</li><li>Taste: Tasteless</li><li>Density: Lowest among all elements</li><li>Melting Point: 14.01 K (-259.14°C)</li><li>Boiling Point: 20.28 K (-252.87°C)</li><li>Reactivity: Highly reactive, especially with oxygen and halogens</li><li>Molecular Form: Exists diatomically as H<sub>2</sub></li><li>Isotopes: Protium (¹H), Deuterium (²H), Tritium (³H)</li><li>Flammability: Highly flammable, burns with a pale blue flame</li><li>Solubility: Slightly soluble in water</li><li>Electronegativity: 2.2 (Pauling scale)</li><li>Ionization Energy: 1312 kJ/mol</li><li>Bonding: Forms both ionic and covalent bonds</li></ul>",
+    "application": "<ul><li>Fuel: Used as rocket fuel and in hydrogen fuel cells for clean energy production.</li><li>Industrial Applications: Utilized in the production of ammonia for fertilizers via the Haber process.</li><li>Petrochemical Industry: Used in hydrogenation processes for refining crude oil.</li><li>Welding: Employed in oxy-hydrogen welding torches.</li><li>Energy Storage: Serves as a storage medium for renewable energy.</li><li>Medical Applications: Used in the synthesis of pharmaceuticals and as a tracer in medical imaging.</li><li>Food Industry: Used for hydrogenation of oils to make margarine and other products.</li><li>Chemical Production: Essential for producing hydrochloric acid and other chemicals.</li><li>Space Exploration: Power source for spacecraft and satellites.</li><li>Cooling: Utilized in cooling systems for power plants and generators.</li></ul>"
+},
   {
     "img": "./img/helium.png",
     "name": "Helium",
@@ -26,8 +26,7 @@
     "universe": "10^−4 relative to hydrogen",
     "boiling": 4.22,
     "melting": 0.95,
-    "intro": "jod jod jod",
-    "eleConfig": [2, 8, 18, 32, 32, 18, 8]
+    "eleConfig": [2]
   },
   {
     "img": "./img/lithium.png",
@@ -37,22 +36,32 @@
     "eConfig": "[He]2s<sup>1</sup>",
     "density": "0.5334 g/ml",
     "crust": "0.002%",
-    "universe": "10^−10 relative to hydrogen",
+    "universe": "10^-10 relative to hydrogen",
     "boiling": 1615,
-    "melting": 453.7
-  },
-  {
-    "img": "./img/beryllium.png",
-    "name": "Beryllium",
-    "atNo": "4",
-    "atMass": "9.0122 u",
-    "eConfig": "[He]2s<sup>2</sup>",
-    "density": "1.848 g/cm³",
-    "crust": "0.019%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 2742,
-    "melting": 1560
-  },
+    "melting": 453.7,
+    "eleConfig": [2, 1],
+    "intro": "Lithium is a soft, silvery-white alkali metal with the atomic number 3. It is the lightest metal and has high electrochemical potential, making it an essential element in modern technology, particularly in rechargeable batteries.",
+    "properties": "<ul><li>Atomic Number: 3</li><li>Atomic Mass: 6.941 u</li><li>Electron Configuration: [He]2s<sup>1</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Silvery-white</li><li>Density: 0.5334 g/ml</li><li>Melting Point: 453.7 K (180.5°C)</li><li>Boiling Point: 1615 K (1342°C)</li><li>Reactivity: Highly reactive, especially with water and oxygen</li><li>Hardness: Soft and can be cut with a knife</li><li>Thermal Conductivity: Excellent</li><li>Electronegativity: 0.98 (Pauling scale)</li><li>Ionization Energy: 520.2 kJ/mol</li><li>Oxidation State: +1</li><li>Flammability: Flammable in air, burns with a bright red flame</li></ul>",
+    "application": "<ul><li>Batteries: Essential for lithium-ion rechargeable batteries used in electronics, electric vehicles, and renewable energy storage.</li><li>Pharmaceuticals: Used to treat bipolar disorder and other psychiatric conditions.</li><li>Alloys: Improves strength and durability of aluminum and magnesium alloys.</li><li>Glass and Ceramics: Enhances thermal resistance and durability in glass and ceramics production.</li><li>Aerospace: Used in high-performance materials for spacecraft and aircraft.</li><li>Lubricants: Component in high-temperature lubricating greases.</li><li>Heat Transfer: Utilized in heat-resistant applications and as a coolant in nuclear reactors.</li><li>Desiccants: Used to remove moisture from air and gases in industrial processes.</li></ul>"
+}
+,{
+  "img": "./img/beryllium.png",
+  "name": "Beryllium",
+  "atNo": "4",
+  "atMass": "9.0122 u",
+  "eConfig": "[He]2s<sup>2</sup>",
+  "density": "1.848 g/cm³",
+  "crust": "0.019%",
+  "universe": "10^-8 relative to hydrogen",
+  "boiling": 2742,
+  "melting": 1560,
+  "eleConfig": [2, 2],
+  "intro": "Beryllium is a hard, brittle, steel-gray metal that is part of the alkaline earth metals group. With atomic number 4, it has exceptional stiffness and lightweight properties, making it invaluable in aerospace and nuclear industries.",
+  "properties": "<ul><li>Atomic Number: 4</li><li>Atomic Mass: 9.0122 u</li><li>Electron Configuration: [He]2s<sup>2</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Steel-gray</li><li>Density: 1.848 g/cm³</li><li>Melting Point: 1560 K (1287°C)</li><li>Boiling Point: 2742 K (2469°C)</li><li>Hardness: Extremely hard and brittle</li><li>Thermal Conductivity: High</li><li>Reactivity: Resistant to corrosion in air due to an oxide film</li><li>Electronegativity: 1.57 (Pauling scale)</li><li>Ionization Energy: 899.5 kJ/mol</li><li>Oxidation State: +2</li><li>Toxicity: Highly toxic if inhaled or ingested as dust or fumes</li></ul>",
+  "application": "<ul><li>Aerospace: Used in lightweight structural materials and components.</li><li>Nuclear Reactors: Acts as a neutron reflector and moderator.</li><li>Electronics: Found in connectors and springs due to its excellent electrical conductivity and thermal stability.</li><li>Alloys: Strengthens copper and nickel alloys for tools and machinery.</li><li>Optics: Utilized in high-performance mirrors and X-ray equipment.</li><li>Defense: Used in missile systems and satellite structures for its lightweight and durable nature.</li><li>Medical: Applied in X-ray windows for its transparency to X-rays and high strength.</li><li>Science: Helps in particle acceleration experiments as a target material.</li></ul>"
+}
+,
+  
   {
     "img": "./img/boron.png",
     "name": "Boron",
@@ -60,10 +69,11 @@
     "atMass": "10.81 u",
     "eConfig": "[He]2s<sup>2</sup>2p<sup>1</sup>",
     "density": "2.34 g/cm³",
-    "crust": "0.001% ",
+    "crust": "0.001%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 4200,
-    "melting": 2075
+    "melting": 2075,
+    "eleConfig": [2, 3]
   },
   {
     "img": "./img/carbon.png",
@@ -75,7 +85,8 @@
     "crust": "0.02%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 4827,
-    "melting": 3825
+    "melting": 3825,
+    "eleConfig": [2, 4]
   },
   {
     "img": "./img/nitrogen.png",
@@ -87,7 +98,8 @@
     "crust": "0.002%",
     "universe": "10^−7 relative to hydrogen",
     "boiling": 77.36,
-    "melting": -210
+    "melting": -210,
+    "eleConfig": [2, 5]
   },
   {
     "img": "./img/oxygen.png",
@@ -99,7 +111,8 @@
     "crust": "0.9%",
     "universe": "10^−7 relative to hydrogen",
     "boiling": 90.2,
-    "melting": -218.79
+    "melting": -218.79,
+    "eleConfig": [2, 6]
   },
   {
     "img": "./img/fluorine.png",
@@ -111,7 +124,8 @@
     "crust": "0.00008%",
     "universe": "10^−7 relative to hydrogen",
     "boiling": 85.03,
-    "melting": -219.67
+    "melting": -219.67,
+    "eleConfig": [2, 7]
   },
   {
     "img": "./img/neon.png",
@@ -123,7 +137,8 @@
     "crust": "0.0018%",
     "universe": "10^−7 relative to hydrogen",
     "boiling": 27.07,
-    "melting": -248.59
+    "melting": -248.59,
+    "eleConfig": [2, 8]
   },
   {
     "img": "./img/sodium.png",
@@ -133,22 +148,32 @@
     "eConfig": "[Ne]3s<sup>1</sup>",
     "density": "0.971 g/cm³",
     "crust": "2.36%",
-    "universe": "10^−7 relative to hydrogen",
+    "universe": "10^-7 relative to hydrogen",
     "boiling": 1156,
-    "melting": 371.0
-  },
-  {
-    "img": "./img/magnesium.png",
-    "name": "Magnesium",
-    "atNo": "12",
-    "atMass": "24.305 u",
-    "eConfig": "[Ne]3s<sup>2</sup>",
-    "density": "1.738 g/cm³",
-    "crust": "2.09%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 1380,
-    "melting": 923.0
-  },
+    "melting": 371.0,
+    "eleConfig": [2, 8, 1],
+    "intro": "Sodium is a soft, silvery-white, highly reactive metal and belongs to the alkali metal group. With an atomic number of 11, it is essential for life and widely used in various industries due to its chemical reactivity.",
+    "properties": "<ul><li>Atomic Number: 11</li><li>Atomic Mass: 22.98977 u</li><li>Electron Configuration: [Ne]3s<sup>1</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Silvery-white</li><li>Density: 0.971 g/cm³</li><li>Melting Point: 371.0 K (97.85°C)</li><li>Boiling Point: 1156 K (883°C)</li><li>Reactivity: Highly reactive, especially with water and air</li><li>Thermal Conductivity: High</li><li>Softness: Can be easily cut with a knife</li><li>Electronegativity: 0.93 (Pauling scale)</li><li>Ionization Energy: 495.8 kJ/mol</li><li>Oxidation State: +1</li></ul>",
+    "application": "<ul><li>Chemical Industry: Used in the production of sodium hydroxide (caustic soda) and sodium carbonate (soda ash).</li><li>Food Industry: Component of table salt (sodium chloride) and food preservatives.</li><li>Energy Storage: Key material in sodium-ion batteries as a low-cost alternative to lithium-ion batteries.</li><li>Lighting: Used in sodium vapor lamps for street lighting.</li><li>Metallurgy: Employed in the production of titanium and aluminum.</li><li>Coolant: Used as a heat transfer medium in certain nuclear reactors.</li><li>Medical: Sodium compounds are essential for intravenous saline solutions and other medical uses.</li><li>Biology: Vital for nerve impulse transmission and maintaining cellular homeostasis.</li></ul>"
+}
+,
+{
+  "img": "./img/magnesium.png",
+  "name": "Magnesium",
+  "atNo": "12",
+  "atMass": "24.305 u",
+  "eConfig": "[Ne]3s<sup>2</sup>",
+  "density": "1.738 g/cm³",
+  "crust": "2.09%",
+  "universe": "10^-8 relative to hydrogen",
+  "boiling": 1380,
+  "melting": 923.0,
+  "eleConfig": [2, 8, 2],
+  "intro": "Magnesium is a lightweight, silvery-white metal that is the eighth most abundant element in the Earth's crust and a crucial component in biological and industrial processes.",
+  "properties": "<ul><li>Atomic Number: 12</li><li>Atomic Mass: 24.305 u</li><li>Electron Configuration: [Ne]3s<sup>2</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Silvery-white</li><li>Density: 1.738 g/cm³</li><li>Melting Point: 923.0 K (649°C)</li><li>Boiling Point: 1380 K (1107°C)</li><li>Reactivity: Reacts with water and acids to release hydrogen gas</li><li>Strength: Lightweight and strong, often alloyed with other metals</li><li>Electronegativity: 1.31 (Pauling scale)</li><li>Ionization Energy: 737.7 kJ/mol</li><li>Oxidation State: +2</li></ul>",
+  "application": "<ul><li>Metallurgy: Used in lightweight alloys for aerospace, automotive, and structural applications.</li><li>Construction: A component of magnesium oxide, used in refractory and cement materials.</li><li>Electronics: Employed in the manufacture of mobile phones, laptops, and cameras.</li><li>Medicine: Found in antacids, laxatives, and magnesium supplements.</li><li>Agriculture: Used in fertilizers as a source of magnesium for plants.</li><li>Chemical Industry: Involved in the production of various compounds such as magnesium chloride and magnesium sulfate.</li><li>Fireworks: Produces bright white flames and sparks in pyrotechnic displays.</li><li>Biological: Essential for photosynthesis and as a cofactor in numerous enzymes in living organisms.</li></ul>"
+}
+,
   {
     "img": "./img/aluminium.png",
     "name": "Aluminium",
@@ -159,7 +184,8 @@
     "crust": "8.23%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 2470,
-    "melting": 660.3
+    "melting": 660.3,
+    "eleConfig": [2, 8, 3]
   },
   {
     "img": "./img/silicon.png",
@@ -171,7 +197,8 @@
     "crust": "27.7%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 2900,
-    "melting": 1414.0
+    "melting": 1414.0,
+    "eleConfig": [2, 8, 4]
   },
   {
     "img": "./img/phosphorus.png",
@@ -183,7 +210,8 @@
     "crust": "0.1%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 280,
-    "melting": 44.2
+    "melting": 44.2,
+    "eleConfig": [2, 8, 5]
   },
   {
     "img": "./img/sulfur.png",
@@ -191,11 +219,12 @@
     "atNo": "16",
     "atMass": "32.065 u",
     "eConfig": "[Ne]3s<sup>2</sup>3p<sup>4</sup>",
-    "density": "2.067 g/cm³",
-    "crust": "0.034%",
-    "universe": "10^−8 relative to hydrogen",
+    "density": "2.07 g/cm³",
+    "crust": "0.03%",
+    "universe": "10^−7 relative to hydrogen",
     "boiling": 444.6,
-    "melting": 115.2
+    "melting": 388.4,
+    "eleConfig": [2, 8, 6]
   },
   {
     "img": "./img/chlorine.png",
@@ -207,7 +236,8 @@
     "crust": "0.00008%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 239.11,
-    "melting": -101.5
+    "melting": -101.5,
+    "eleConfig": [2, 8, 7]
   },
   {
     "img": "./img/argon.png",
@@ -219,7 +249,8 @@
     "crust": "0.0003%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 87.3,
-    "melting": -189.34
+    "melting": -189.34,
+    "eleConfig": [2, 8, 8]
   },
   {
     "img": "./img/potassium.png",
@@ -229,22 +260,32 @@
     "eConfig": "[Ar]4s<sup>1</sup>",
     "density": "0.862 g/cm³",
     "crust": "2.60%",
-    "universe": "10^−7 relative to hydrogen",
+    "universe": "10^-7 relative to hydrogen",
     "boiling": 1032,
-    "melting": 336.7
-  },
-  {
-    "img": "./img/calcium.png",
-    "name": "Calcium",
-    "atNo": "20",
-    "atMass": "40.078 u",
-    "eConfig": "[Ar]4s<sup>2</sup>",
-    "density": "1.54 g/cm³",
-    "crust": "3.64%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 1757,
-    "melting": 842.0
-  },
+    "melting": 336.7,
+    "eleConfig": [2, 8, 8, 1],
+    "intro": "Potassium is a soft, silvery-white metal and an essential alkali metal that plays a critical role in biological systems and various industrial applications.",
+    "properties": "<ul><li>Atomic Number: 19</li><li>Atomic Mass: 39.0983 u</li><li>Electron Configuration: [Ar]4s<sup>1</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Silvery-white</li><li>Density: 0.862 g/cm³</li><li>Melting Point: 336.7 K (63.5°C)</li><li>Boiling Point: 1032 K (759°C)</li><li>Reactivity: Highly reactive, especially with water, producing hydrogen gas and heat</li><li>Softness: Can be easily cut with a knife</li><li>Oxidation State: +1</li><li>Ionization Energy: 418.8 kJ/mol</li><li>Electronegativity: 0.82 (Pauling scale)</li></ul>",
+    "application": "<ul><li>Agriculture: Widely used in fertilizers as a source of potassium for plant growth.</li><li>Medicine: Essential for maintaining normal cellular function and nerve transmission in the human body.</li><li>Industry: Used in the manufacture of glass and detergents.</li><li>Chemical Industry: A key component in the production of potassium hydroxide and other compounds.</li><li>Energy: Utilized in some types of batteries and as a heat-transfer medium in nuclear reactors.</li><li>Food Preservation: Helps to preserve foods and control pH in various food products.</li><li>Pyrotechnics: Used in fireworks to produce violet flames.</li></ul>"
+}
+,
+{
+  "img": "./img/calcium.png",
+  "name": "Calcium",
+  "atNo": "20",
+  "atMass": "40.078 u",
+  "eConfig": "[Ar]4s<sup>2</sup>",
+  "density": "1.54 g/cm³",
+  "crust": "3.64%",
+  "universe": "10^-8 relative to hydrogen",
+  "boiling": 1757,
+  "melting": 842.0,
+  "eleConfig": [2, 8, 8, 2],
+  "intro": "Calcium is a soft, gray, alkaline earth metal that is essential for living organisms, particularly in the formation of bones and teeth. It is the fifth-most abundant element by mass in the Earth's crust.",
+  "properties": "<ul><li>Atomic Number: 20</li><li>Atomic Mass: 40.078 u</li><li>Electron Configuration: [Ar]4s<sup>2</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Gray</li><li>Density: 1.54 g/cm³</li><li>Melting Point: 842 K (569°C)</li><li>Boiling Point: 1757 K (1484°C)</li><li>Reactivity: Reacts readily with water, producing hydrogen gas and calcium hydroxide</li><li>Oxidation State: +2</li><li>Ionization Energy: 589.8 kJ/mol</li><li>Electronegativity: 1.00 (Pauling scale)</li></ul>",
+  "application": "<ul><li>Biological: Crucial for the formation of bones and teeth in humans and other vertebrates.</li><li>Agriculture: Used in fertilizers and lime to improve soil quality and reduce acidity.</li><li>Construction: Forms a key component of cement and concrete.</li><li>Chemical Industry: Used in the production of calcium carbide, which is essential for the manufacturing of acetylene gas.</li><li>Metallurgy: Important in the production of steel to remove impurities and improve its properties.</li><li>Food Industry: Used as a calcium supplement in food products and in the processing of certain foods.</li><li>Medicine: Utilized in the treatment of calcium deficiencies, such as osteoporosis and rickets.</li></ul>"
+}
+,
   {
     "img": "./img/scandium.png",
     "name": "Scandium",
@@ -255,7 +296,8 @@
     "crust": "0.002%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2830,
-    "melting": 1541
+    "melting": 1541,
+    "eleConfig": [2, 8, 9, 2]
   },
   {
     "img": "./img/titanium.png",
@@ -267,7 +309,8 @@
     "crust": "0.63%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 3560,
-    "melting": 1668
+    "melting": 1668,
+    "eleConfig": [2, 8, 10, 2]
   },
   {
     "img": "./img/vanadium.png",
@@ -279,7 +322,8 @@
     "crust": "0.015%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3407,
-    "melting": 1910
+    "melting": 1910,
+    "eleConfig": [2, 8, 11, 2]
   },
   {
     "img": "./img/chromium.png",
@@ -291,7 +335,8 @@
     "crust": "0.014%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2671,
-    "melting": 1907
+    "melting": 1907,
+    "eleConfig": [2, 8, 13, 1]
   },
   {
     "img": "./img/manganese.png",
@@ -303,7 +348,8 @@
     "crust": "0.12%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2235,
-    "melting": 1244
+    "melting": 1244,
+    "eleConfig": [2, 8, 13, 2]
   },
   {
     "img": "./img/iron.png",
@@ -315,7 +361,8 @@
     "crust": "5.6%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3134,
-    "melting": 1538
+    "melting": 1538,
+    "eleConfig": [2, 8, 14, 2]
   },
   {
     "img": "./img/cobalt.png",
@@ -327,7 +374,8 @@
     "crust": "0.002%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2927,
-    "melting": 1495
+    "melting": 1495,
+    "eleConfig": [2, 8, 15, 2]
   },
   {
     "img": "./img/nickel.png",
@@ -339,7 +387,8 @@
     "crust": "0.008%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3003,
-    "melting": 1455
+    "melting": 1455,
+    "eleConfig": [2, 8, 16, 2]
   },
   {
     "img": "./img/copper.png",
@@ -351,7 +400,8 @@
     "crust": "0.0068%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2562,
-    "melting": 1084.62
+    "melting": 1084.62,
+    "eleConfig": [2, 8, 18, 1]
   },
   {
     "img": "./img/zinc.png",
@@ -360,214 +410,240 @@
     "atMass": "65.38 u",
     "eConfig": "[Ar]3d<sup>10</sup>4s<sup>2</sup>",
     "density": "7.14 g/cm³",
-    "crust": "0.0075%",
+    "crust": "0.007%",
     "universe": "10^−9 relative to hydrogen",
-    "boiling": 1180,
-    "melting": 419.5
+    "boiling": 907,
+    "melting": 419.58,
+    "eleConfig": [2, 8, 18, 2]
   },
   {
     "img": "./img/gallium.png",
     "name": "Gallium",
     "atNo": "31",
     "atMass": "69.723 u",
-    "eConfig": "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>1</sup>",
+    "eConfig": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>1</sup>",
     "density": "5.91 g/cm³",
     "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 2204,
-    "melting": 29.76
+    "melting": 29.76,
+    "eleConfig": [2, 8, 18, 3]
   },
   {
     "img": "./img/germanium.png",
     "name": "Germanium",
     "atNo": "32",
     "atMass": "72.63 u",
-    "eConfig": "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>2</sup>",
+    "eConfig": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>2</sup>",
     "density": "5.32 g/cm³",
     "crust": "0.0015%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 2833,
-    "melting": 938.3
+    "melting": 938.3,
+    "eleConfig": [2, 8, 18, 4]
   },
   {
     "img": "./img/arsenic.png",
     "name": "Arsenic",
     "atNo": "33",
     "atMass": "74.9216 u",
-    "eConfig": "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>3</sup>",
+    "eConfig": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>3</sup>",
     "density": "5.72 g/cm³",
     "crust": "0.0005%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 887,
-    "melting": 817.0
+    "melting": 817.0,
+    "eleConfig": [2, 8, 18, 5]
   },
   {
     "img": "./img/selenium.png",
     "name": "Selenium",
     "atNo": "34",
     "atMass": "78.971 u",
-    "eConfig": "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>4</sup>",
+    "eConfig": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup>",
     "density": "4.79 g/cm³",
     "crust": "0.0006%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 958,
-    "melting": 221
+    "melting": 221,
+    "eleConfig": [2, 8, 18, 6]
   },
   {
     "img": "./img/bromine.png",
     "name": "Bromine",
     "atNo": "35",
     "atMass": "79.904 u",
-    "eConfig": "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>5</sup>",
+    "eConfig": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>5</sup>",
     "density": "3.12 g/cm³",
     "crust": "0.0003%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 332,
-    "melting": -7.2
+    "melting": -7.2,
+    "eleConfig": [2, 8, 18, 7]
   },
   {
     "img": "./img/krypton.png",
     "name": "Krypton",
     "atNo": "36",
     "atMass": "83.798 u",
-    "eConfig": "[Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>6</sup>",
+    "eConfig": "[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup>",
     "density": "0.003733 g/cm³",
     "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 119.93,
-    "melting": -157.36
+    "melting": -157.36,
+    "eleConfig": [2, 8, 18, 8]
   },
   {
     "img": "./img/rubidium.png",
     "name": "Rubidium",
     "atNo": "37",
     "atMass": "85.4678 u",
-    "eConfig": "[Kr]5s<sup>1</sup>",
+    "eConfig": "[Kr] 5s<sup>1</sup>",
     "density": "1.532 g/cm³",
     "crust": "0.00004%",
-    "universe": "10^−8 relative to hydrogen",
+    "universe": "10<sup>−8</sup> relative to hydrogen",
     "boiling": 688,
-    "melting": 39.3
-  },
-  {
-    "img": "./img/strontium.png",
-    "name": "Strontium",
-    "atNo": "38",
-    "atMass": "87.62 u",
-    "eConfig": "[Kr]5s<sup>2</sup>",
-    "density": "2.64 g/cm³",
-    "crust": "0.034%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 1384,
-    "melting": 777
-  },
+    "melting": 39.3,
+    "eleConfig": [2, 8, 18, 8, 1],
+    "intro": "Rubidium is a soft, silvery-white metallic element of the alkali metal group. It is highly reactive and is one of the least abundant elements in the Earth's crust.",
+    "properties": "<ul><li>Atomic Number: 37</li><li>Atomic Mass: 85.4678 u</li><li>Electron Configuration: [Kr] 5s<sup>1</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Silvery-white</li><li>Density: 1.532 g/cm³</li><li>Melting Point: 39.3°C</li><li>Boiling Point: 688°C</li><li>Reactivity: Highly reactive, especially with water</li><li>Oxidation State: +1</li><li>Electronegativity: 0.82 (Pauling scale)</li><li>Ionization Energy: 403.0 kJ/mol</li></ul>",
+    "application": "<ul><li>Research: Used in various scientific applications, such as in studies of ion propulsion and in atomic clocks.</li><li>Energy: Rubidium compounds are used in the production of special glasses and in the manufacture of photoelectric cells.</li><li>Glass Manufacturing: Rubidium is used to make certain types of glass, including those used in television and radar tubes.</li><li>Chemical Industry: Used as a catalyst in some chemical reactions.</li><li>Biomedical: Although its use is limited, rubidium isotopes are sometimes utilized in medical imaging techniques.</li></ul>"
+}
+,
+{
+  "img": "./img/strontium.png",
+  "name": "Strontium",
+  "atNo": "38",
+  "atMass": "87.62 u",
+  "eConfig": "[Kr] 5s<sup>2</sup>",
+  "density": "2.64 g/cm³",
+  "crust": "0.034%",
+  "universe": "10<sup>−9</sup> relative to hydrogen",
+  "boiling": 1384,
+  "melting": 777,
+  "eleConfig": [2, 8, 18, 8, 2],
+  "intro": "Strontium is a soft, silvery-white metallic element that is highly reactive and belongs to the alkaline earth metals group. It is found in minerals like celestine and strontianite and has applications in various fields, especially in the production of fireworks and magnets.",
+  "properties": "<ul><li>Atomic Number: 38</li><li>Atomic Mass: 87.62 u</li><li>Electron Configuration: [Kr] 5s<sup>2</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Silvery-white</li><li>Density: 2.64 g/cm³</li><li>Melting Point: 777°C</li><li>Boiling Point: 1384°C</li><li>Reactivity: Highly reactive, especially with water</li><li>Oxidation State: +2</li><li>Electronegativity: 0.95 (Pauling scale)</li><li>Ionization Energy: 549.5 kJ/mol</li></ul>",
+  "application": "<ul><li>Fireworks: Strontium compounds are used to produce red color in fireworks.</li><li>Magnets: Strontium ferrite is used to make permanent magnets.</li><li>Glass Industry: Used in the production of specialty glasses, such as in cathode ray tubes.</li><li>Medical: Strontium-90, a radioactive isotope, has applications in cancer treatment and radiotherapy.</li><li>Battery Technology: Strontium is sometimes used in batteries due to its conductive properties.</li></ul>"
+}
+,
   {
     "img": "./img/yttrium.png",
     "name": "Yttrium",
     "atNo": "39",
     "atMass": "88.9059 u",
-    "eConfig": "[Kr]4d<sup>1</sup>5s<sup>2</sup>",
+    "eConfig": "[Kr] 4d<sup>1</sup> 5s<sup>2</sup>",
     "density": "4.47 g/cm³",
     "crust": "0.0003%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 3609,
-    "melting": 1522
+    "melting": 1522,
+    "eleConfig": [2, 8, 18, 9]
   },
   {
     "img": "./img/zirconium.png",
     "name": "Zirconium",
     "atNo": "40",
     "atMass": "91.224 u",
-    "eConfig": "[Kr]4d<sup>2</sup>5s<sup>2</sup>",
+    "eConfig": "[Kr] 4d<sup>2</sup> 5s<sup>2</sup>",
     "density": "6.51 g/cm³",
     "crust": "0.022%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 4682,
-    "melting": 1855
+    "melting": 1855,
+    "eleConfig": [2, 8, 18, 10]
   },
   {
     "img": "./img/niobium.png",
     "name": "Niobium",
     "atNo": "41",
     "atMass": "92.9064 u",
-    "eConfig": "[Kr]4d<sup>4</sup>5s<sup>1</sup>",
+    "eConfig": "[Kr] 4d<sup>4</sup> 5s<sup>1</sup>",
     "density": "8.57 g/cm³",
     "crust": "0.0011%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 4744,
-    "melting": 2477
+    "melting": 2477,
+    "eleConfig": [2, 8, 18, 12]
   },
   {
     "img": "./img/molybdenum.png",
     "name": "Molybdenum",
     "atNo": "42",
     "atMass": "95.94 u",
-    "eConfig": "[Kr]4d<sup>5</sup>5s<sup>1</sup>",
+    "eConfig": "[Kr] 4d<sup>5</sup> 5s<sup>1</sup>",
     "density": "10.28 g/cm³",
     "crust": "0.0012%",
-    "universe": "10^−9 relative to hydrogen",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 4612,
-    "melting": 2623
+    "melting": 2623,
+    "eleConfig": [2, 8, 18, 13]
   },
   {
     "img": "./img/technetium.png",
     "name": "Technetium",
     "atNo": "43",
     "atMass": "98 u",
-    "eConfig": "[Kr]4d<sup>6</sup>5s<sup>2</sup>",
+    "eConfig": "[Kr] 4d<sup>6</sup> 5s<sup>2</sup>",
     "density": "11.5 g/cm³",
-    "crust": "trace",
-    "universe": "10^−9 relative to hydrogen",
+    "crust": "extremely rare",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 4265,
-    "melting": 2157
+    "melting": 2430,
+    "eleConfig": [2, 8, 18, 14]
   },
   {
     "img": "./img/ruthenium.png",
     "name": "Ruthenium",
     "atNo": "44",
     "atMass": "101.07 u",
-    "eConfig": "[Kr]4d<sup>7</sup>5s<sup>1</sup>",
+    "eConfig": "[Kr] 4d<sup>7</sup> 5s<sup>1</sup>",
     "density": "12.37 g/cm³",
     "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 4423,
-    "melting": 2334
+    "universe": "10<sup>−9</sup> relative to hydrogen",
+    "boiling": 4150,
+    "melting": 2334,
+    "eleConfig": [2, 8, 18, 15]
   },
   {
     "img": "./img/rhodium.png",
     "name": "Rhodium",
     "atNo": "45",
-    "atMass": "102.91 u",
-    "eConfig": "[Kr]4d<sup>8</sup>5s<sup>1</sup>",
+    "atMass": "102.9055 u",
+    "eConfig": "[Kr] 4d<sup>8</sup> 5s<sup>1</sup>",
     "density": "12.41 g/cm³",
-    "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
+    "crust": "0.00004%",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
     "boiling": 3968,
-    "melting": 1964
+    "melting": 1964,
+    "eleConfig": [2, 8, 18, 16]
   },
   {
     "img": "./img/palladium.png",
     "name": "Palladium",
     "atNo": "46",
     "atMass": "106.42 u",
-    "eConfig": "[Kr]4d<sup>10</sup>5s<sup>0</sup>",
+    "eConfig": "[Kr] 4d<sup>10</sup> 5s<sup>0</sup>",
     "density": "12.02 g/cm³",
-    "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 3236,
-    "melting": 1554
+    "crust": "0.00001%",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
+    "boiling": 2963,
+    "melting": 1555,
+    "eleConfig": [2, 8, 18, 18]
   },
   {
     "img": "./img/silver.png",
     "name": "Silver",
     "atNo": "47",
     "atMass": "107.8682 u",
-    "eConfig": "[Kr]4d<sup>10</sup>5s<sup>1</sup>",
+    "eConfig": "[Kr] 4d<sup>10</sup> 5s<sup>1</sup>",
     "density": "10.49 g/cm³",
-    "crust": "0.075%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 2162,
-    "melting": 961.8
+    "crust": "0.00004%",
+    "universe": "10<sup>−9</sup> relative to hydrogen",
+    "boiling": 2435,
+    "melting": 961.78,
+    "eleConfig": [2, 8, 18, 18, 1]
   },
   {
     "img": "./img/cadmium.png",
@@ -579,7 +655,8 @@
     "crust": "0.002%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 767,
-    "melting": 321.1
+    "melting": 321.1,
+    "eleConfig": [2, 8, 18, 18, 2]
   },
   {
     "img": "./img/indium.png",
@@ -591,7 +668,8 @@
     "crust": "0.0005%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2345,
-    "melting": 156.6
+    "melting": 156.6,
+    "eleConfig": [2, 8, 18, 18, 3]
   },
   {
     "img": "./img/tin.png",
@@ -603,7 +681,8 @@
     "crust": "0.0009%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2875,
-    "melting": 231.9
+    "melting": 231.9,
+    "eleConfig": [2, 8, 18, 18, 4]
   },
   {
     "img": "./img/antimony.png",
@@ -615,7 +694,8 @@
     "crust": "0.0001%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1587,
-    "melting": 630.6
+    "melting": 630.6,
+    "eleConfig": [2, 8, 18, 18, 5]
   },
   {
     "img": "./img/tellurium.png",
@@ -627,7 +707,8 @@
     "crust": "0.0003%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 989,
-    "melting": 452.0
+    "melting": 452.0,
+    "eleConfig": [2, 8, 18, 18, 6]
   },
   {
     "img": "./img/iodine.png",
@@ -639,7 +720,8 @@
     "crust": "0.00003%",
     "universe": "10^−9 relative to hydrogen",
     "boiling": 184.3,
-    "melting": 113.7
+    "melting": 113.7,
+    "eleConfig": [2, 8, 18, 18, 7]
   },
   {
     "img": "./img/xenon.png",
@@ -651,7 +733,8 @@
     "crust": "0.000002%",
     "universe": "10^−8 relative to hydrogen",
     "boiling": 165.1,
-    "melting": 108.1
+    "melting": 108.1,
+    "eleConfig": [2, 8, 18, 18, 8]
   },
   {
     "img": "./img/cesium.png",
@@ -661,21 +744,456 @@
     "eConfig": "[Xe]6s<sup>1</sup>",
     "density": "1.93 g/cm³",
     "crust": "0.00002%",
-    "universe": "10^−8 relative to hydrogen",
+    "universe": "10<sup>−8</sup> relative to hydrogen",
     "boiling": 669,
-    "melting": 28.5
+    "melting": 28.5,
+    "eleConfig": [2, 8, 18, 18, 8, 1],
+    "intro": "Cesium is a soft, gold-colored, alkali metal known for its high reactivity, especially with water. It is one of the least abundant elements in the Earth's crust but is notable for its applications in atomic clocks and the oil industry.",
+    "properties": "<ul><li>Atomic Number: 55</li><li>Atomic Mass: 132.905 u</li><li>Electron Configuration: [Xe] 6s<sup>1</sup></li><li>Physical State: Solid at room temperature, soft</li><li>Color: Gold-colored</li><li>Density: 1.93 g/cm³</li><li>Melting Point: 28.5°C (near room temperature)</li><li>Boiling Point: 669°C</li><li>Reactivity: Highly reactive, especially with water, forming hydrogen gas and heat</li><li>Oxidation State: +1</li><li>Electronegativity: 0.79 (Pauling scale)</li><li>Ionization Energy: 375.7 kJ/mol</li></ul>",
+    "application": "<ul><li>Atomic Clocks: Cesium is used in the most accurate time-keeping devices, known as cesium atomic clocks.</li><li>Oil Drilling: Cesium formate is used in the oil industry for its high-density properties in drilling fluids.</li><li>Medical: Cesium-137, a radioactive isotope, has applications in cancer treatment and radiation therapy.</li><li>Electronics: Cesium compounds are used in the production of photoelectric cells and as a component in some semiconductors.</li><li>Research: Used in studies related to ion propulsion systems and high-energy physics.</li></ul>"
+}
+,
+{
+  "img": "./img/barium.png",
+  "name": "Barium",
+  "atNo": "56",
+  "atMass": "137.327 u",
+  "eConfig": "[Xe]6s<sup>2</sup>",
+  "density": "3.62 g/cm³",
+  "crust": "0.045%",
+  "universe": "10<sup>−9</sup> relative to hydrogen",
+  "boiling": 1640,
+  "melting": 727,
+  "eleConfig": [2, 8, 18, 18, 8, 2],
+  "intro": "Barium is a soft, silvery-white alkaline earth metal that is highly reactive and is rarely found in its pure form in nature. It forms various compounds, many of which have important applications, especially in the fields of electronics and materials science.",
+  "properties": "<ul><li>Atomic Number: 56</li><li>Atomic Mass: 137.327 u</li><li>Electron Configuration: [Xe] 6s<sup>2</sup></li><li>Physical State: Solid at room temperature, soft</li><li>Color: Silvery-white</li><li>Density: 3.62 g/cm³</li><li>Melting Point: 727°C</li><li>Boiling Point: 1640°C</li><li>Reactivity: Highly reactive, especially with oxygen and water</li><li>Oxidation State: +2</li><li>Electronegativity: 0.89 (Pauling scale)</li><li>Ionization Energy: 502.9 kJ/mol</li></ul>",
+  "application": "<ul><li>Electronics: Barium compounds are used in the production of cathode ray tubes, such as in older television and computer monitors.</li><li>Medical: Barium sulfate is used in X-ray imaging to highlight the gastrointestinal tract in medical scans.</li><li>Steelmaking: Barium is added to steel and other alloys to improve strength and hardness.</li><li>Fireworks: Barium compounds are used to produce green colors in fireworks.</li><li>Drilling Fluids: Barium sulfate is used in oil and gas drilling as a weighting agent in drilling fluids.</li></ul>"
+}
+,
+  {
+    "img": "./img/hafnium.png",
+    "name": "Hafnium",
+    "atNo": "72",
+    "atMass": "178.49 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>2</sup>6s<sup>2</sup>",
+    "density": "13.31 g/cm³",
+    "crust": "0.0003%",
+    "universe": "10^−9 relative to hydrogen",
+    "boiling": 4876,
+    "melting": 2233,
+    "eleConfig": [2, 8, 18, 32, 10, 2]
+
   },
   {
-    "img": "./img/barium.png",
-    "name": "Barium",
-    "atNo": "56",
-    "atMass": "137.327 u",
-    "eConfig": "[Xe]6s<sup>2</sup>",
-    "density": "3.62 g/cm³",
-    "crust": "0.045%",
+    "img": "./img/tantalum.png",
+    "name": "Tantalum",
+    "atNo": "73",
+    "atMass": "180.947 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>3</sup>6s<sup>2</sup>",
+    "density": "16.69 g/cm³",
+    "crust": "0.00002%",
     "universe": "10^−9 relative to hydrogen",
-    "boiling": 1640,
-    "melting": 727
+    "boiling": 5458,
+    "melting": 3017,
+    "eleConfig": [2, 8, 18, 32, 11, 2]
+  },
+  {
+    "img": "./img/tungsten.png",
+    "name": "Tungsten",
+    "atNo": "74",
+    "atMass": "183.84 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>4</sup>6s<sup>2</sup>",
+    "density": "19.25 g/cm³",
+    "crust": "0.00012%",
+    "universe": "10^−9 relative to hydrogen",
+    "boiling": 5828,
+    "melting": 3422,
+    "eleConfig": [2, 8, 18, 32, 12, 2]
+  },
+  {
+    "img": "./img/rhenium.png",
+    "name": "Rhenium",
+    "atNo": "75",
+    "atMass": "186.207 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>5</sup>6s<sup>1</sup>",
+    "density": "21.02 g/cm³",
+    "crust": "0.001% ",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 5869,
+    "melting": 3459,
+    "eleConfig": [2, 8, 18, 32, 13, 2]
+  },
+  {
+    "img": "./img/osmium.png",
+    "name": "Osmium",
+    "atNo": "76",
+    "atMass": "190.23 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>6</sup>6s<sup>2</sup>",
+    "density": "22.59 g/cm³",
+    "crust": "0.001% ",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 5285,
+    "melting": 3033,
+    "eleConfig": [2, 8, 18, 32, 14, 2]
+  },
+  {
+    "img": "./img/iridium.png",
+    "name": "Iridium",
+    "atNo": "77",
+    "atMass": "192.22 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>7</sup>6s<sup>2</sup>",
+    "density": "22.56 g/cm³",
+    "crust": "0.0001%",
+    "universe": "10^−9 relative to hydrogen",
+    "boiling": 4428,
+    "melting": 2410,
+    "eleConfig": [2, 8, 18, 32, 15, 2]
+  },
+  {
+    "img": "./img/platinum.png",
+    "name": "Platinum",
+    "atNo": "78",
+    "atMass": "195.08 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>9</sup>6s<sup>1</sup>",
+    "density": "21.45 g/cm³",
+    "crust": "0.0005%",
+    "universe": "10^−9 relative to hydrogen",
+    "boiling": 3825,
+    "melting": 1768,
+    "eleConfig": [2, 8, 18, 32, 17, 1]
+  },
+  {
+    "img": "./img/gold.png",
+    "name": "Gold",
+    "atNo": "79",
+    "atMass": "196.966 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>1</sup>",
+    "density": "19.32 g/cm³",
+    "crust": "0.0031%",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 2970,
+    "melting": 1337.33,
+    "eleConfig": [2, 8, 18, 32, 18, 1]
+  },
+  {
+    "img": "./img/mercury.png",
+    "name": "Mercury",
+    "atNo": "80",
+    "atMass": "200.592 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>",
+    "density": "13.53 g/cm³",
+    "crust": "0.00003%",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 356.7,
+    "melting": 234.3,
+    "eleConfig": [2, 8, 18, 32, 18, 2]
+  },
+  {
+    "img": "./img/thallium.png",
+    "name": "Thallium",
+    "atNo": "81",
+    "atMass": "204.38 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>1</sup>",
+    "density": "11.85 g/cm³",
+    "crust": "0.00001%",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 1473,
+    "melting": 304.3,
+    "eleConfig": [2, 8, 18, 32, 18, 3]
+  },
+  {
+    "img": "./img/lead.png",
+    "name": "Lead",
+    "atNo": "82",
+    "atMass": "207.2 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>2</sup>",
+    "density": "11.34 g/cm³",
+    "crust": "0.0013%",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 1749,
+    "melting": 327.5,
+    "eleConfig": [2, 8, 18, 32, 18, 4]
+  },
+  {
+    "img": "./img/bismuth.png",
+    "name": "Bismuth",
+    "atNo": "83",
+    "atMass": "208.980 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>3</sup>",
+    "density": "9.78 g/cm³",
+    "crust": "0.00002%",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 1837,
+    "melting": 271.3,
+    "eleConfig": [2, 8, 18, 32, 18, 5]
+  },
+  {
+    "img": "./img/polonium.png",
+    "name": "Polonium",
+    "atNo": "84",
+    "atMass": "209 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>4</sup>",
+    "density": "9.32 g/cm³",
+    "crust": "trace",
+    "universe": "10^−8 relative to hydrogen",
+    "boiling": 962,
+    "melting": 254,
+    "eleConfig": [2, 8, 18, 32, 18, 6]
+  },
+  {
+    "img": "./img/astatine.png",
+    "name": "Astatine",
+    "atNo": "85",
+    "atMass": "210 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>5</sup>",
+    "density": "7 g/cm³",
+    "crust": "trace",
+    "universe": "10^−9 relative to hydrogen",
+    "boiling": 337,
+    "melting": 302,
+    "eleConfig": [2, 8, 18, 32, 18, 7]
+  },
+  {
+    "img": "./img/radon.png",
+    "name": "Radon",
+    "atNo": "86",
+    "atMass": "222 u",
+    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>6</sup>",
+    "density": "9.73 g/cm³",
+    "crust": "trace",
+    "universe": "10<sup>−8</sup> relative to hydrogen",
+    "boiling": 211,
+    "melting": 202,
+    "eleConfig": [2, 8, 18, 32, 18, 8]
+  },
+  {
+  "img": "./img/francium.png",
+  "name": "Francium",
+  "atNo": "87",
+  "atMass": "223 u",
+  "eConfig": "[Rn]7s<sup>1</sup>",
+  "density": "1.87 g/cm³",
+  "crust": "trace",
+  "universe": "10<sup>−10</sup> relative to hydrogen",
+  "boiling": 677,
+  "melting": 27,
+  "eleConfig": [2, 8, 18, 32, 18, 8, 1],
+  "intro": "Francium is a highly radioactive alkali metal with the symbol Fr and atomic number 87. It is the least stable of the first 101 elements and is extremely rare, found only in trace amounts in the Earth's crust. Francium is highly reactive, especially with water, and has no significant industrial applications due to its rarity and radioactivity.",
+  "properties": "<ul><li>Atomic Number: 87</li><li>Atomic Mass: 223 u</li><li>Electron Configuration: [Rn] 7s<sup>1</sup></li><li>Physical State: Solid at room temperature</li><li>Color: Unknown, likely metallic</li><li>Density: 1.87 g/cm³</li><li>Melting Point: 27°C</li><li>Boiling Point: 677°C</li><li>Radioactivity: Highly radioactive, with a very short half-life</li><li>Reactivity: Extremely reactive, especially with water</li><li>Occurrence: Found in trace amounts in the Earth's crust, primarily as a decay product of actinium</li></ul>",
+  "application": "<ul><li>Scientific Research: Used in nuclear research to study the properties of radioactive elements and decay processes.</li><li>Limited Medical Use: Due to its rarity and radioactivity, francium has no significant medical applications.</li><li>Industrial Use: Francium has no known industrial applications due to its extreme rarity and radioactivity.</li><li>Observation in Nature: Francium is occasionally studied in nature as a trace element associated with uranium and thorium decay.</li></ul>"
+}
+,
+{
+  "img": "./img/radium.png",
+  "name": "Radium",
+  "atNo": "88",
+  "atMass": "226 u",
+  "eConfig": "[Rn]7s<sup>2</sup>",
+  "density": "5.5 g/cm³",
+  "crust": "0.00002%",
+  "universe": "10<sup>−10</sup> relative to hydrogen",
+  "boiling": 1413,
+  "melting": 700,
+  "eleConfig": [2, 8, 18, 32, 18, 8, 2],
+  "intro": "Radium is a highly radioactive element with the symbol Ra and atomic number 88. It was discovered by Marie and Pierre Curie in 1898. Radium was once used in a variety of applications, including in luminous paints and medical treatments, though its use has declined due to its hazardous radioactivity. It is found in trace amounts in uranium and thorium ores.",
+  "properties": "<ul><li>Atomic Number: 88</li><li>Atomic Mass: 226 u</li><li>Electron Configuration: [Rn] 7s<sup>2</sup></li><li>Physical State: Solid at room temperature</li><li>Color: White or metallic</li><li>Density: 5.5 g/cm³</li><li>Melting Point: 700°C</li><li>Boiling Point: 1413°C</li><li>Radioactivity: Highly radioactive, emits alpha particles</li><li>Reactivity: Highly reactive, especially with moisture and air</li><li>Occurrence: Found in trace amounts in uranium and thorium ores</li></ul>",
+  "application": "<ul><li>Medical Treatments: Historically used in cancer treatments, though it has been largely replaced due to its harmful effects.</li><li>Luminous Paints: Used in the early 20th century for luminous dials on watches, clocks, and aircraft instruments.</li><li>Scientific Research: Studied for its radioactive properties and applications in nuclear science.</li><li>Radon Production: Radium decay produces radon, a radioactive gas with its own applications in research.</li></ul>"
+}
+,
+  {
+    "img": "./img/rutherfordium.png",
+    "name": "Rutherfordium",
+    "atNo": "104",
+    "atMass": "267 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>2</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 10, 2]
+  },
+  {
+    "img": "./img/dubnium.png",
+    "name": "Dubnium",
+    "atNo": "105",
+    "atMass": "270 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>3</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 11, 2]
+  },
+  {
+    "img": "./img/seaborgium.png",
+    "name": "Seaborgium",
+    "atNo": "106",
+    "atMass": "271 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>4</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 12, 2]
+  },
+  {
+    "img": "./img/bohrium.png",
+    "name": "Bohrium",
+    "atNo": "107",
+    "atMass": "270 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>5</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 13, 2]
+  },
+  {
+    "img": "./img/hassium.png",
+    "name": "Hassium",
+    "atNo": "108",
+    "atMass": "277 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>6</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 14, 2]
+  },
+  {
+    "img": "./img/meitnerium.png",
+    "name": "Meitnerium",
+    "atNo": "109",
+    "atMass": "278 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>7</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 15, 2]
+  },
+  {
+    "img": "./img/darmstadtium.png",
+    "name": "Darmstadtium",
+    "atNo": "110",
+    "atMass": "281 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>8</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 16, 2]
+  },
+  {
+    "img": "./img/roentgenium.png",
+    "name": "Roentgenium",
+    "atNo": "111",
+    "atMass": "282 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>9</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 17, 2]
+  },
+  {
+    "img": "./img/copernicium.png",
+    "name": "Copernicium",
+    "atNo": "112",
+    "atMass": "285 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 2]
+  },
+  {
+    "img": "./img/nihonium.png",
+    "name": "Nihonium",
+    "atNo": "113",
+    "atMass": "284 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>8p<sup>1</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 3]
+  },
+  {
+    "img": "./img/flerovium.png",
+    "name": "Flerovium",
+    "atNo": "114",
+    "atMass": "289 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>8p<sup>2</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 4]
+  },
+  {
+    "img": "./img/moscovium.png",
+    "name": "Moscovium",
+    "atNo": "115",
+    "atMass": "288 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>8p<sup>3</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 5]
+  },
+  {
+    "img": "./img/livermorium.png",
+    "name": "Livermorium",
+    "atNo": "116",
+    "atMass": "293 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>8p<sup>4</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 6]
+  },
+  {
+    "img": "./img/tennessine.png",
+    "name": "Tennessine",
+    "atNo": "117",
+    "atMass": "294 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>8p<sup>5</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 7]
+  },
+  {
+    "img": "./img/oganesson.png",
+    "name": "Oganesson",
+    "atNo": "118",
+    "atMass": "294 u",
+    "eConfig": "[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>8p<sup>6</sup>",
+    "density": "unmeasured",
+    "crust": "trace",
+    "universe": "trace",
+    "boiling": "unmeasured",
+    "melting": "unmeasured",
+    "eleConfig": [2, 8, 18, 32, 32, 18, 8]
   },
   {
     "img": "./img/lanthanum.png",
@@ -688,6 +1206,8 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3464,
     "melting": 1193
+    
+    
   },
   {
     "img": "./img/cerium.png",
@@ -700,6 +1220,8 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3425,
     "melting": 1071
+    
+   
   },
   {
     "img": "./img/praseodymium.png",
@@ -712,6 +1234,9 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3407,
     "melting": 931
+    
+
+    
   },
   {
     "img": "./img/neodymium.png",
@@ -724,6 +1249,7 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3347,
     "melting": 1024
+    
   },
   {
     "img": "./img/promethium.png",
@@ -736,6 +1262,8 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3273,
     "melting": 1315
+    
+
   },
   {
     "img": "./img/samarium.png",
@@ -748,6 +1276,9 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2067,
     "melting": 1077
+    
+
+
   },
   {
     "img": "./img/europium.png",
@@ -760,6 +1291,7 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1802,
     "melting": 1095
+    
   },
   {
     "img": "./img/gadolinium.png",
@@ -772,6 +1304,7 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3273,
     "melting": 1585
+    
   },
   {
     "img": "./img/terbium.png",
@@ -784,6 +1317,8 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3230,
     "melting": 1629
+    
+
   },
   {
     "img": "./img/dysprosium.png",
@@ -796,6 +1331,7 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2840,
     "melting": 1680
+    
   },
   {
     "img": "./img/holmium.png",
@@ -808,6 +1344,8 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 2720,
     "melting": 1747
+    
+
   },
   {
     "img": "./img/erbium.png",
@@ -820,6 +1358,7 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3141,
     "melting": 1529
+    
   },
   {
     "img": "./img/thulium.png",
@@ -832,6 +1371,8 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1950,
     "melting": 1818
+    
+
   },
   {
     "img": "./img/ytterbium.png",
@@ -844,6 +1385,8 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 1469,
     "melting": 1097
+    
+
   },
   {
     "img": "./img/lutetium.png",
@@ -856,211 +1399,10 @@
     "universe": "10^−9 relative to hydrogen",
     "boiling": 3402,
     "melting": 1925
+    
   },
-  {
-    "img": "./img/hafnium.png",
-    "name": "Hafnium",
-    "atNo": "72",
-    "atMass": "178.49 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>2</sup>6s<sup>2</sup>",
-    "density": "13.31 g/cm³",
-    "crust": "0.0003%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 4876,
-    "melting": 2233
-  },
-  {
-    "img": "./img/tantalum.png",
-    "name": "Tantalum",
-    "atNo": "73",
-    "atMass": "180.947 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>3</sup>6s<sup>2</sup>",
-    "density": "16.69 g/cm³",
-    "crust": "0.00002%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 5458,
-    "melting": 3017
-  },
-  {
-    "img": "./img/tungsten.png",
-    "name": "Tungsten",
-    "atNo": "74",
-    "atMass": "183.84 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>4</sup>6s<sup>2</sup>",
-    "density": "19.25 g/cm³",
-    "crust": "0.00012%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 5828,
-    "melting": 3422
-  },
-  {
-    "img": "./img/rhenium.png",
-    "name": "Rhenium",
-    "atNo": "75",
-    "atMass": "186.207 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>5</sup>6s<sup>1</sup>",
-    "density": "21.02 g/cm³",
-    "crust": "0.001% ",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 5869,
-    "melting": 3459
-  },
-  {
-    "img": "./img/osmium.png",
-    "name": "Osmium",
-    "atNo": "76",
-    "atMass": "190.23 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>6</sup>6s<sup>2</sup>",
-    "density": "22.59 g/cm³",
-    "crust": "0.001% ",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 5285,
-    "melting": 3033
-  },
-  {
-    "img": "./img/iridium.png",
-    "name": "Iridium",
-    "atNo": "77",
-    "atMass": "192.22 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>7</sup>6s<sup>2</sup>",
-    "density": "22.56 g/cm³",
-    "crust": "0.0001%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 4428,
-    "melting": 2410
-  },
-  {
-    "img": "./img/platinum.png",
-    "name": "Platinum",
-    "atNo": "78",
-    "atMass": "195.08 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>9</sup>6s<sup>1</sup>",
-    "density": "21.45 g/cm³",
-    "crust": "0.0005%",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 3825,
-    "melting": 1768
-  },
-  {
-    "img": "./img/gold.png",
-    "name": "Gold",
-    "atNo": "79",
-    "atMass": "196.966 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>1</sup>",
-    "density": "19.32 g/cm³",
-    "crust": "0.0031%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 2970,
-    "melting": 1337.33
-  },
-  {
-    "img": "./img/mercury.png",
-    "name": "Mercury",
-    "atNo": "80",
-    "atMass": "200.592 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>",
-    "density": "13.53 g/cm³",
-    "crust": "0.00003%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 356.7,
-    "melting": 234.3
-  },
-  {
-    "img": "./img/thallium.png",
-    "name": "Thallium",
-    "atNo": "81",
-    "atMass": "204.38 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>1</sup>",
-    "density": "11.85 g/cm³",
-    "crust": "0.00001%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 1473,
-    "melting": 304.3
-  },
-  {
-    "img": "./img/lead.png",
-    "name": "Lead",
-    "atNo": "82",
-    "atMass": "207.2 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>2</sup>",
-    "density": "11.34 g/cm³",
-    "crust": "0.0013%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 1749,
-    "melting": 327.5
-  },
-  {
-    "img": "./img/bismuth.png",
-    "name": "Bismuth",
-    "atNo": "83",
-    "atMass": "208.980 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>3</sup>",
-    "density": "9.78 g/cm³",
-    "crust": "0.00002%",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 1837,
-    "melting": 271.3
-  },
-  {
-    "img": "./img/polonium.png",
-    "name": "Polonium",
-    "atNo": "84",
-    "atMass": "209 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>4</sup>",
-    "density": "9.32 g/cm³",
-    "crust": "trace",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 962,
-    "melting": 254
-  },
-  {
-    "img": "./img/astatine.png",
-    "name": "Astatine",
-    "atNo": "85",
-    "atMass": "210 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>5</sup>",
-    "density": "7 g/cm³",
-    "crust": "trace",
-    "universe": "10^−9 relative to hydrogen",
-    "boiling": 337,
-    "melting": 302
-  },
-  {
-    "img": "./img/radon.png",
-    "name": "Radon",
-    "atNo": "86",
-    "atMass": "222 u",
-    "eConfig": "[Xe]4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup> 6p<sup>6</sup>",
-    "density": "9.73 g/cm³",
-    "crust": "trace",
-    "universe": "10^−8 relative to hydrogen",
-    "boiling": 211,
-    "melting": 202
-  },
-  {
-    "img": "./img/francium.png",
-    "name": "Francium",
-    "atNo": "87",
-    "atMass": "223 u",
-    "eConfig": "[Rn]7s<sup>1</sup>",
-    "density": "1.87 g/cm³",
-    "crust": "trace",
-    "universe": "10^−10 relative to hydrogen",
-    "boiling": 677,
-    "melting": 27
-  },
-  {
-    "img": "./img/radium.png",
-    "name": "Radium",
-    "atNo": "88",
-    "atMass": "226 u",
-    "eConfig": "[Rn]7s<sup>2</sup>",
-    "density": "5.5 g/cm³",
-    "crust": "0.00002%",
-    "universe": "10^−10 relative to hydrogen",
-    "boiling": 1413,
-    "melting": 700
-  },
+  
+  
   {
     "img": "./img/actinium.png",
     "name": "Actinium",

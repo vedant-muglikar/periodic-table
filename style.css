@@ -57,6 +57,7 @@ p {
   height: 100%;
   width: 100%;
   padding: 0px;
+  z-index: 10;
 }
 
 .periodic-bg .element {
@@ -104,7 +105,6 @@ p {
   grid-area: 8/1/9/19;
   border: 2px solid black;
 }
-
 /* Hover effect */
 
 .element-box {
@@ -187,6 +187,7 @@ p {
   transition: all 0.5s ease-in-out;
   opacity: 0;
   pointer-events: none;
+  z-index: 100;
 }
 
 .popup {
@@ -204,6 +205,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  z-index: 100;
 }
 
 .main-info {
@@ -531,24 +533,4 @@ p {
 }
 /*test code*/
 
-
-.main .element-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 0%;
-  left: 0%;
-}
-
-.main .element-box .nucleus{
-  position: absolute;
-  width: 1vh;
-  height: 1vh;
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.main .element-box .eleContainer{
-  position: absolute;
-}
 /*test code*/
