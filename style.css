@@ -531,6 +531,53 @@ p {
 .ngglow {
   box-shadow: 0 0 5vh 0.7vh rgb(183, 48, 255);
 }
-/*test code*/
 
-/*test code*/
+.alkalineEarthMetalBtnH {
+  background: rgb(48, 193, 255);
+  color: black;
+}
+
+.alkaliMetalBtnH {
+  background: rgb(35, 244, 255);
+  color: black;
+}
+
+.transitionElementBtnH {
+  background: rgb(255, 228, 77);
+  color: black;
+}
+
+.metalloidBtnH {
+  background: rgb(183, 198, 196);
+  color: black;
+}
+
+.nobleGasBtnH {
+  background: rgb(183, 48, 255);
+  color: black;
+}
+
+.lanthanoidBtnH {
+  background: rgb(180, 255, 41);
+  color: black;
+}
+
+.actinoidBtnH {
+  background: rgb(0, 255, 115);
+  color: black;
+}
+
+.alkalineEarthMetalBtnH {
+  background: rgb(48, 193, 255);
+  color: black;
+}
+
+.nonMetalBtnH {
+  background: rgb(255, 69, 112);
+  color: black;
+}
+
+.postTransitionElementBtnH {
+  background: rgb(255, 170, 0);
+  color: black;
+}

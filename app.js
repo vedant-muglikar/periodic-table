@@ -216,6 +216,43 @@ tempValue.addEventListener("input", (e) => {
   colorUpdate(e.target.value);
 });
 
+alkaliMetalBtn.addEventListener("click", () => {
+  amglowUpdate();
+  alkaliMetalBtn.classList.toggle("alkaliMetalBtnH");
+});
+alkaliEarthMetalsBtn.addEventListener("click", () => {
+  aemglowUpdate();
+  alkaliEarthMetalsBtn.classList.toggle("alkalineEarthMetalBtnH");
+});
+transBtn.addEventListener("click", () => {
+  teglowUpdate();
+  transBtn.classList.toggle("transitionElementBtnH");
+});
+postTransBtn.addEventListener("click", () => {
+  pteglowUpdate();
+  postTransBtn.classList.toggle("postTransitionElementBtnH");
+});
+metalloidsBtn.addEventListener("click", () => {
+  meglowUpdate();
+  metalloidsBtn.classList.toggle("metalloidBtnH");
+});
+nonMetalloidsBtn.addEventListener("click", () => {
+  nmglowUpdate();
+  nonMetalloidsBtn.classList.toggle("nonMetalBtnH");
+});
+lanthanoidsBtn.addEventListener("click", () => {
+  laglowUpdate();
+  lanthanoidsBtn.classList.toggle("lanthanoidBtnH");
+});
+actinoidsBtn.addEventListener("click", () => {
+  acglowUpdate();
+  actinoidsBtn.classList.toggle("actinoidBtnH");
+});
+nobleGasBtn.addEventListener("click", () => {
+  ngglowUpdate();
+  nobleGasBtn.classList.toggle("nobleGasBtnH");
+});
+
 /*Fetching data of elements from json and appending to elements*/
 
 fetch("./data.json")
@@ -256,9 +293,7 @@ fetch("./data.json")
   .then((res) => res.json())
   .then((data) => {
     availablekeywords = data.map((element) => element.name);
-     console.log(availablekeywords);
-
-
+    console.log(availablekeywords);
   });
 /* */
 const resultBox = document.querySelector(".result-box");
