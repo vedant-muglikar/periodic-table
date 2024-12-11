@@ -394,7 +394,7 @@ for (let i = 0; i < allSq.length; i++) {
     electron.style.height = `${(100 / windowHeight) * electronDiam}vh`;
     electron.style.width = `${(100 / windowHeight) * electronDiam}vh`;
     electron.style.borderRadius = "50%";
-    electron.style.zIndex = "0";
+    electron.style.zIndex = "-3";
   }
 
   const allEleContainer = allSq[i].querySelectorAll(".eleContainer"); //collecting all electrons boxes
